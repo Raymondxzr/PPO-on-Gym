@@ -1,0 +1,5 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episodic return: -83.45146179199219
+episodic return: -136.78359985351562
+(8,) 4

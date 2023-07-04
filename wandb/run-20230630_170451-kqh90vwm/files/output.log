@@ -1,0 +1,22 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/autograd/__init__.py:200: UserWarning: Error detected in torch::autograd::CopySlices. Traceback of forward call that caused the error:
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 255, in <module>
+    ppo(env, 32, 0.99, 0.2, 4, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 218, in ppo
+    advantages[i] = returns[i] - value_estimates
+ (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/python_anomaly_mode.cpp:119.)
+  Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 255, in <module>
+    ppo(env, 32, 0.99, 0.2, 4, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 221, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, epsilon_clip, policy_epochs, step)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 114, in update
+    loss.backward()
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: Trying to backward through the graph a second time (or directly access saved tensors after they have already been freed). Saved intermediate values of the graph are freed when you call .backward() or autograd.grad(). Specify retain_graph=True if you need to backward through the graph a second time or if you need to access saved tensors after calling backward.
+episode 0 total_reward -58.57

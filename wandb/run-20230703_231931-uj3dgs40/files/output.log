@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 173, in <module>
+    ppo(env, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 112, in ppo
+    action, log_prob, _ = agent.get_action_and_value(state_tensor)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 43, in get_action_and_value
+    x = x.squeeze(1)
+        ^^^^^^^^^^^^
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)

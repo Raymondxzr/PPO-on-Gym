@@ -1,0 +1,52 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward +20.00
+episode 1 total_reward +11.00
+episode 2 total_reward +11.00
+episode 3 total_reward +15.00
+episode 4 total_reward +27.00
+episode 5 total_reward +16.00
+episode 6 total_reward +13.00
+episode 7 total_reward +14.00
+episode 8 total_reward +19.00
+episode 9 total_reward +23.00
+episode 10 total_reward +40.00
+episode 11 total_reward +14.00
+episode 12 total_reward +16.00
+episode 13 total_reward +11.00
+episode 14 total_reward +15.00
+episode 15 total_reward +17.00
+episode 16 total_reward +15.00
+episode 17 total_reward +14.00
+episode 18 total_reward +22.00
+episode 19 total_reward +25.00
+episode 20 total_reward +10.00
+episode 21 total_reward +14.00
+episode 22 total_reward +20.00
+episode 23 total_reward +13.00
+episode 24 total_reward +27.00
+episode 25 total_reward +17.00
+episode 26 total_reward +17.00
+episode 27 total_reward +25.00
+episode 28 total_reward +29.00
+episode 29 total_reward +12.00
+episode 30 total_reward +12.00
+episode 31 total_reward +22.00
+episode 32 total_reward +16.00
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 172, in <module>
+    ppo(env, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 142, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, step)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 70, in update
+    _, action_log_probs, predicted_vals = agent.get_action_and_value(state,action)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 44, in get_action_and_value
+    probs = Categorical(logits=logits)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/distributions/categorical.py", line 62, in __init__
+    self.logits = logits - logits.logsumexp(dim=-1, keepdim=True)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 33 total_reward +33.00
+episode 34 total_reward +25.00

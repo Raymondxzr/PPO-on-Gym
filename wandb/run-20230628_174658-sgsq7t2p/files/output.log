@@ -1,0 +1,22 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -146.08
+episode 1 total_reward -64.56
+episode 2 total_reward -92.31
+episode 3 total_reward -107.39
+episode 4 total_reward -236.86
+episode 5 total_reward -72.26
+episode 6 total_reward -129.80
+episode 7 total_reward -68.18
+episode 8 total_reward -175.31
+episode 9 total_reward -100.54
+episode 10 total_reward -471.58
+episode 11 total_reward -139.53
+episode 12 total_reward -92.40
+episode 13 total_reward -177.42
+episode 14 total_reward -279.83
+episode 15 total_reward -214.76
+episode 16 total_reward -211.51
+episode 17 total_reward -130.16
+episode 18 total_reward -110.21
+episode 19 total_reward -330.90

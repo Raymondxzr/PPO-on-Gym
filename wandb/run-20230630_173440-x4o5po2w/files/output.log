@@ -1,0 +1,25 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -88.80
+episode 1 total_reward -89.31
+episode 2 total_reward -245.77
+episode 3 total_reward -65.46
+episode 4 total_reward -77.74
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 259, in <module>
+    ppo(env, 32, 0.99, 0.2, 4, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 190, in ppo
+    action, log_prob, _ = agent.get_action_and_value(state_tensor)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 37, in get_action_and_value
+    action = probs.sample()
+             ^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/distributions/categorical.py", line 118, in sample
+    samples_2d = torch.multinomial(probs_2d, sample_shape.numel(), True).T
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 5 total_reward -260.94
+episode 6 total_reward -80.03
+episode 7 total_reward -104.41
+episode 8 total_reward -367.03
+episode 9 total_reward -205.57

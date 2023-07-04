@@ -1,0 +1,27 @@
+2023-07-03 22:53:00,887 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-07-03 22:53:00,888 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Configure stats pid to 9219
+2023-07-03 22:53:00,888 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Loading settings from /Users/Raymond/.config/wandb/settings
+2023-07-03 22:53:00,888 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Loading settings from /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/settings
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'ppo.py', 'program': '/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py'}
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_init.py:_log_setup():507] Logging user logs to /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230703_225300-t4t1bkxb/logs/debug.log
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230703_225300-t4t1bkxb/logs/debug-internal.log
+2023-07-03 22:53:00,889 INFO    MainThread:9219 [wandb_init.py:init():547] calling init triggers
+2023-07-03 22:53:00,890 INFO    MainThread:9219 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-03 22:53:00,890 INFO    MainThread:9219 [wandb_init.py:init():596] starting backend
+2023-07-03 22:53:00,890 INFO    MainThread:9219 [wandb_init.py:init():600] setting up manager
+2023-07-03 22:53:00,894 INFO    MainThread:9219 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-03 22:53:00,898 INFO    MainThread:9219 [wandb_init.py:init():606] backend started and connected
+2023-07-03 22:53:00,903 INFO    MainThread:9219 [wandb_init.py:init():703] updated telemetry
+2023-07-03 22:53:00,904 INFO    MainThread:9219 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-07-03 22:53:01,247 INFO    MainThread:9219 [wandb_run.py:_on_init():2176] communicating current version
+2023-07-03 22:53:01,452 INFO    MainThread:9219 [wandb_run.py:_on_init():2185] got version response 
+2023-07-03 22:53:01,453 INFO    MainThread:9219 [wandb_init.py:init():787] starting run threads in backend
+2023-07-03 22:53:01,536 INFO    MainThread:9219 [wandb_run.py:_console_start():2155] atexit reg
+2023-07-03 22:53:01,537 INFO    MainThread:9219 [wandb_run.py:_redirect():2010] redirect: 3
+2023-07-03 22:53:01,537 INFO    MainThread:9219 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-07-03 22:53:01,537 INFO    MainThread:9219 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-07-03 22:53:01,537 INFO    MainThread:9219 [wandb_init.py:init():828] run started, returning control to user process
+2023-07-03 22:53:16,644 WARNING MsgRouterThr:9219 [router.py:message_loop():77] message_loop has been closed

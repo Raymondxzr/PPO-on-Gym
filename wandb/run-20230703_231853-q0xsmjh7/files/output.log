@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 173, in <module>
+    ppo(env, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 90, in ppo
+    agent = Agent(env)
+            ^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 25, in __init__
+    layer_init(nn.Linear(np.array(env.observation_space.shape).prod(), 64)),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 10, in layer_init
+    torch.nn.init.orthogonal_(layer.weight, std_scale=1.0)
+TypeError: orthogonal_() got an unexpected keyword argument 'std_scale'

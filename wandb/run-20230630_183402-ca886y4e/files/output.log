@@ -1,0 +1,262 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+step: 77
+episode 0 total_reward -109.05
+step: 64
+episode 1 total_reward -81.68
+step: 152
+episode 2 total_reward -83.96
+step: 131
+episode 3 total_reward -162.80
+step: 64
+episode 4 total_reward -205.36
+step: 107
+episode 5 total_reward -588.61
+step: 64
+episode 6 total_reward -113.71
+step: 84
+episode 7 total_reward +24.97
+step: 71
+episode 8 total_reward -149.08
+step: 67
+episode 9 total_reward -93.08
+step: 91
+episode 10 total_reward -36.58
+step: 59
+episode 11 total_reward -87.00
+step: 104
+episode 12 total_reward -461.41
+step: 122
+episode 13 total_reward -143.22
+step: 118
+episode 14 total_reward -172.05
+step: 85
+episode 15 total_reward -98.00
+step: 92
+episode 16 total_reward -217.03
+step: 91
+episode 17 total_reward -347.92
+step: 72
+episode 18 total_reward -119.47
+step: 72
+episode 19 total_reward -192.53
+step: 100
+episode 20 total_reward -96.10
+step: 74
+episode 21 total_reward -211.12
+step: 133
+episode 22 total_reward -155.71
+step: 90
+episode 23 total_reward -274.55
+step: 82
+episode 24 total_reward -354.60
+step: 67
+episode 25 total_reward -139.44
+step: 65
+episode 26 total_reward -93.60
+step: 66
+episode 27 total_reward -86.74
+step: 62
+episode 28 total_reward -72.34
+step: 121
+episode 29 total_reward -273.52
+step: 95
+episode 30 total_reward -33.41
+step: 59
+episode 31 total_reward -115.80
+step: 71
+episode 32 total_reward -282.59
+step: 87
+episode 33 total_reward -125.76
+step: 106
+episode 34 total_reward -382.14
+step: 78
+episode 35 total_reward -109.65
+step: 59
+episode 36 total_reward -186.28
+step: 127
+episode 37 total_reward -239.21
+step: 87
+episode 38 total_reward -90.37
+step: 85
+episode 39 total_reward -204.84
+step: 88
+episode 40 total_reward -381.03
+step: 72
+episode 41 total_reward -177.82
+step: 78
+episode 42 total_reward -352.74
+step: 82
+episode 43 total_reward -409.20
+step: 101
+episode 44 total_reward -310.43
+step: 84
+episode 45 total_reward -92.78
+step: 115
+episode 46 total_reward -263.57
+step: 64
+episode 47 total_reward -36.55
+step: 92
+episode 48 total_reward -279.21
+step: 143
+episode 49 total_reward -158.26
+step: 61
+episode 50 total_reward -114.69
+step: 96
+episode 51 total_reward -132.95
+step: 105
+episode 52 total_reward -347.65
+step: 119
+episode 53 total_reward -439.03
+step: 93
+episode 54 total_reward -203.27
+step: 104
+episode 55 total_reward -429.22
+step: 107
+episode 56 total_reward -402.78
+step: 111
+episode 57 total_reward -159.04
+step: 94
+episode 58 total_reward -150.59
+step: 63
+episode 59 total_reward -96.91
+step: 82
+episode 60 total_reward -89.39
+step: 106
+episode 61 total_reward -118.31
+step: 126
+episode 62 total_reward -10.39
+step: 122
+episode 63 total_reward -337.45
+step: 108
+episode 64 total_reward -442.25
+step: 81
+episode 65 total_reward -341.06
+step: 104
+episode 66 total_reward -186.50
+step: 92
+episode 67 total_reward -130.17
+step: 65
+episode 68 total_reward -107.91
+step: 77
+episode 69 total_reward -118.61
+step: 98
+episode 70 total_reward -202.50
+step: 98
+episode 71 total_reward -377.68
+step: 59
+episode 72 total_reward -120.11
+step: 101
+episode 73 total_reward -388.47
+step: 59
+episode 74 total_reward -78.75
+step: 97
+episode 75 total_reward -305.69
+step: 79
+episode 76 total_reward -331.53
+step: 92
+episode 77 total_reward -115.82
+step: 121
+episode 78 total_reward -343.62
+step: 93
+episode 79 total_reward -110.74
+step: 114
+episode 80 total_reward +11.19
+step: 60
+episode 81 total_reward -105.79
+step: 104
+episode 82 total_reward -216.21
+step: 129
+episode 83 total_reward -373.29
+step: 68
+episode 84 total_reward -223.27
+step: 101
+episode 85 total_reward -203.15
+step: 102
+episode 86 total_reward -271.06
+step: 88
+episode 87 total_reward -91.91
+step: 73
+episode 88 total_reward -121.69
+step: 89
+episode 89 total_reward -122.36
+step: 82
+episode 90 total_reward -48.01
+step: 98
+episode 91 total_reward -466.07
+step: 84
+episode 92 total_reward -320.48
+step: 83
+episode 93 total_reward -238.23
+step: 73
+episode 94 total_reward -24.90
+step: 118
+episode 95 total_reward -265.13
+step: 84
+episode 96 total_reward -236.23
+step: 81
+episode 97 total_reward -232.82
+step: 71
+episode 98 total_reward -98.17
+step: 130
+episode 99 total_reward -237.55
+step: 151
+episode 100 total_reward -415.88
+step: 86
+episode 101 total_reward -244.35
+step: 68
+episode 102 total_reward -80.93
+step: 95
+episode 103 total_reward -247.65
+step: 103
+episode 104 total_reward -137.66
+step: 102
+episode 105 total_reward -408.91
+step: 107
+episode 106 total_reward -129.45
+step: 88
+episode 107 total_reward -264.55
+step: 94
+episode 108 total_reward -460.69
+step: 61
+episode 109 total_reward -70.72
+step: 64
+episode 110 total_reward -77.28
+step: 113
+episode 111 total_reward -124.55
+step: 100
+episode 112 total_reward -91.49
+step: 111
+episode 113 total_reward -114.56
+step: 92
+episode 114 total_reward -297.16
+step: 93
+episode 115 total_reward -349.66
+step: 64
+episode 116 total_reward -161.93
+step: 61
+episode 117 total_reward -70.92
+step: 121
+episode 118 total_reward -434.46
+step: 112
+episode 119 total_reward -289.97
+step: 96
+episode 120 total_reward -118.93
+step: 90
+episode 121 total_reward -120.85
+step: 112
+episode 122 total_reward -137.11
+step: 74
+episode 123 total_reward -96.08
+step: 107
+episode 124 total_reward -287.85
+step: 105
+episode 125 total_reward -99.30
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 257, in <module>
+    series=episode_rewards,
+TypeError: line() got an unexpected keyword argument 'series'
+step: 116
+episode 126 total_reward -253.93
+step: 74
+episode 127 total_reward -64.49

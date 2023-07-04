@@ -1,0 +1,39 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -274.97
+episode 1 total_reward -96.38
+episode 2 total_reward -82.87
+episode 3 total_reward -118.63
+episode 4 total_reward -20.39
+episode 5 total_reward -65.68
+episode 6 total_reward -177.85
+episode 7 total_reward -79.48
+episode 8 total_reward -261.06
+episode 9 total_reward -292.45
+episode 10 total_reward -126.81
+episode 11 total_reward -119.64
+episode 12 total_reward -90.36
+episode 13 total_reward -254.47
+episode 14 total_reward -194.53
+episode 15 total_reward -71.01
+episode 16 total_reward +8.72
+episode 17 total_reward -216.66
+episode 18 total_reward -97.51
+episode 19 total_reward -126.14
+episode 20 total_reward -258.56
+episode 21 total_reward -74.56
+episode 22 total_reward -7.64
+episode 23 total_reward -133.14
+episode 24 total_reward -132.07
+episode 25 total_reward -212.87
+episode 26 total_reward -328.52
+episode 27 total_reward -162.45
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 261, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'
+episode 28 total_reward -104.04
+episode 29 total_reward -104.65
+episode 30 total_reward -263.71
+episode 31 total_reward -18.85

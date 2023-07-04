@@ -1,0 +1,301 @@
+2023-06-30 18:22:15,768 INFO    StreamThr :63837 [internal.py:wandb_internal():86] W&B internal server running at pid: 63837, started at: 2023-06-30 18:22:15.768309
+2023-06-30 18:22:15,772 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status
+2023-06-30 18:22:15,772 INFO    WriterThread:63837 [datastore.py:open_for_write():85] open: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/run-c63s4mqe.wandb
+2023-06-30 18:22:15,775 DEBUG   SenderThread:63837 [sender.py:send():369] send: header
+2023-06-30 18:22:15,775 DEBUG   SenderThread:63837 [sender.py:send():369] send: run
+2023-06-30 18:22:16,295 INFO    SenderThread:63837 [dir_watcher.py:__init__():211] watching files in: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files
+2023-06-30 18:22:16,295 INFO    SenderThread:63837 [sender.py:_start_run_threads():1100] run started: c63s4mqe with start time 1688174535.767949
+2023-06-30 18:22:16,295 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:16,296 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:16,298 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: check_version
+2023-06-30 18:22:16,298 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: check_version
+2023-06-30 18:22:16,668 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: run_start
+2023-06-30 18:22:16,682 DEBUG   HandlerThread:63837 [system_info.py:__init__():31] System info init
+2023-06-30 18:22:16,682 DEBUG   HandlerThread:63837 [system_info.py:__init__():46] System info init done
+2023-06-30 18:22:16,682 INFO    HandlerThread:63837 [system_monitor.py:start():181] Starting system monitor
+2023-06-30 18:22:16,682 INFO    SystemMonitor:63837 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-30 18:22:16,682 INFO    HandlerThread:63837 [system_monitor.py:probe():201] Collecting system info
+2023-06-30 18:22:16,683 DEBUG   HandlerThread:63837 [system_info.py:probe():195] Probing system
+2023-06-30 18:22:16,683 INFO    SystemMonitor:63837 [interfaces.py:start():190] Started cpu monitoring
+2023-06-30 18:22:16,683 INFO    SystemMonitor:63837 [interfaces.py:start():190] Started disk monitoring
+2023-06-30 18:22:16,684 INFO    SystemMonitor:63837 [interfaces.py:start():190] Started memory monitoring
+2023-06-30 18:22:16,684 INFO    SystemMonitor:63837 [interfaces.py:start():190] Started network monitoring
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [gitlib.py:_init_repo():53] git repository is invalid
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [system_info.py:probe():240] Probing system done
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [system_monitor.py:probe():210] {'os': 'macOS-13.2.1-x86_64-i386-64bit', 'python': '3.11.4', 'heartbeatAt': '2023-07-01T01:22:16.683558', 'startedAt': '2023-07-01T01:22:15.740314', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py', 'codePath': 'ppo.py', 'host': 'Raymonds-MacBook-Pro.local', 'username': 'Raymond', 'executable': '/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 926.3517189025879, 'used': 8.328807830810547}, 'memory': {'total': 16.0}}
+2023-06-30 18:22:16,695 INFO    HandlerThread:63837 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-30 18:22:16,695 INFO    HandlerThread:63837 [system_monitor.py:probe():214] Publishing system info
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-30 18:22:16,695 DEBUG   HandlerThread:63837 [system_info.py:_save_code():89] Saving code
+2023-06-30 18:22:16,696 DEBUG   HandlerThread:63837 [system_info.py:_save_code():110] Saving code done
+2023-06-30 18:22:16,697 INFO    HandlerThread:63837 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-30 18:22:16,701 DEBUG   SenderThread:63837 [sender.py:send():369] send: files
+2023-06-30 18:22:16,702 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-06-30 18:22:16,702 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file code/ppo.py with policy now
+2023-06-30 18:22:16,708 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-30 18:22:16,708 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: stop_status
+2023-06-30 18:22:16,877 DEBUG   SenderThread:63837 [sender.py:send():369] send: telemetry
+2023-06-30 18:22:16,877 INFO    wandb-upload_1:63837 [upload_job.py:push():113] Skipped uploading /var/folders/5w/47tgrsy534l2m0mv646lpb4w0000gn/T/tmp3idl5hbcwandb/fvi4sijx-code/ppo.py
+2023-06-30 18:22:17,198 INFO    wandb-upload_0:63837 [upload_job.py:push():133] Uploaded file /var/folders/5w/47tgrsy534l2m0mv646lpb4w0000gn/T/tmp3idl5hbcwandb/z1hs1xol-wandb-metadata.json
+2023-06-30 18:22:17,304 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:17,304 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/requirements.txt
+2023-06-30 18:22:17,304 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/code/ppo.py
+2023-06-30 18:22:17,304 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-metadata.json
+2023-06-30 18:22:17,305 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/code
+2023-06-30 18:22:18,304 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:19,756 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:19,758 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:19,758 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:19,758 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:20,311 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:20,311 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:20,901 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:21,699 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:21,700 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:21,700 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:21,704 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:22,322 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:22,322 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:23,536 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:23,537 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:23,537 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:23,538 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:24,327 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:24,328 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:26,286 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:26,336 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:26,579 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:26,581 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:26,581 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:26,582 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:27,339 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:28,344 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:29,148 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:29,150 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:29,150 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:29,151 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:29,350 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:30,365 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:30,753 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:30,755 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:30,755 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:30,757 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:31,366 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:31,405 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:31,713 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-30 18:22:31,714 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: stop_status
+2023-06-30 18:22:32,372 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:32,687 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:32,687 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:32,687 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:32,688 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:33,378 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:34,383 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:35,283 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:35,285 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:35,285 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:35,286 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:35,389 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:36,395 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:36,410 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:37,690 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:37,691 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:37,691 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:37,692 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:38,405 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:38,406 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:39,420 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:39,421 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:39,421 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:39,422 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:40,416 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:40,416 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:41,452 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:41,663 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:41,664 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:41,665 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:41,665 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:42,424 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:42,424 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:44,423 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:44,424 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:44,424 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:44,425 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:44,433 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:44,433 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:46,180 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:46,181 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:46,181 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:46,182 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:46,443 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:46,443 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:46,718 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-30 18:22:46,722 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:46,846 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: stop_status
+2023-06-30 18:22:47,446 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/config.yaml
+2023-06-30 18:22:48,452 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:48,519 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:48,520 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:48,520 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:48,521 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:49,457 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:50,463 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:50,707 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:50,709 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:50,710 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:50,710 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:51,469 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:52,215 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:52,471 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:53,010 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:53,012 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:53,012 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:53,012 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:53,474 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:54,480 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:56,044 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:56,046 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:56,046 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:56,047 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:56,491 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:56,492 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:57,570 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:58,285 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-30 18:22:58,286 DEBUG   SenderThread:63837 [sender.py:send():369] send: history
+2023-06-30 18:22:58,287 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: summary_record
+2023-06-30 18:22:58,287 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:58,502 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:22:58,502 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:58,794 DEBUG   SenderThread:63837 [sender.py:send():369] send: exit
+2023-06-30 18:22:58,794 INFO    SenderThread:63837 [sender.py:send_exit():574] handling exit code: 255
+2023-06-30 18:22:58,794 INFO    SenderThread:63837 [sender.py:send_exit():576] handling runtime: 42
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:send_exit():582] send defer
+2023-06-30 18:22:58,795 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,795 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-30 18:22:58,795 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 1
+2023-06-30 18:22:58,795 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,795 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-30 18:22:58,795 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-06-30 18:22:58,795 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 2
+2023-06-30 18:22:58,795 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,795 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-30 18:22:58,796 INFO    HandlerThread:63837 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-30 18:22:58,796 DEBUG   SystemMonitor:63837 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-30 18:22:58,796 DEBUG   SystemMonitor:63837 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-30 18:22:58,796 INFO    HandlerThread:63837 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-30 18:22:58,796 DEBUG   SystemMonitor:63837 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-30 18:22:58,796 INFO    HandlerThread:63837 [interfaces.py:finish():202] Joined disk monitor
+2023-06-30 18:22:58,797 INFO    HandlerThread:63837 [interfaces.py:finish():202] Joined memory monitor
+2023-06-30 18:22:58,797 INFO    HandlerThread:63837 [interfaces.py:finish():202] Joined network monitor
+2023-06-30 18:22:58,797 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,797 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-06-30 18:22:58,797 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 3
+2023-06-30 18:22:58,797 DEBUG   SenderThread:63837 [sender.py:send():369] send: stats
+2023-06-30 18:22:58,797 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,797 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-30 18:22:58,797 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,797 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-06-30 18:22:58,797 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 4
+2023-06-30 18:22:58,797 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,797 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-30 18:22:58,798 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,798 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-06-30 18:22:58,798 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 5
+2023-06-30 18:22:58,798 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,798 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-30 18:22:58,798 DEBUG   SenderThread:63837 [sender.py:send():369] send: summary
+2023-06-30 18:22:58,798 INFO    SenderThread:63837 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-06-30 18:22:58,799 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,799 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-06-30 18:22:58,799 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 6
+2023-06-30 18:22:58,799 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,799 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-30 18:22:58,799 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,799 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-06-30 18:22:58,799 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 7
+2023-06-30 18:22:58,799 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: status_report
+2023-06-30 18:22:58,799 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:22:58,799 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-30 18:22:58,799 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:22:58,799 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-06-30 18:22:59,508 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:22:59,797 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-30 18:23:00,264 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 8
+2023-06-30 18:23:00,265 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: poll_exit
+2023-06-30 18:23:00,265 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:00,265 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-30 18:23:00,265 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:00,265 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-06-30 18:23:00,265 INFO    SenderThread:63837 [job_builder.py:build():232] Attempting to build job artifact
+2023-06-30 18:23:00,266 INFO    SenderThread:63837 [job_builder.py:build():266] no source found
+2023-06-30 18:23:00,266 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 9
+2023-06-30 18:23:00,266 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:00,266 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-30 18:23:00,266 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:00,266 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-06-30 18:23:00,267 INFO    SenderThread:63837 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-06-30 18:23:00,513 INFO    Thread-12 :63837 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:23:00,514 INFO    SenderThread:63837 [dir_watcher.py:finish():389] scan: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files
+2023-06-30 18:23:00,514 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/requirements.txt requirements.txt
+2023-06-30 18:23:00,514 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log output.log
+2023-06-30 18:23:00,516 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/config.yaml config.yaml
+2023-06-30 18:23:00,516 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json wandb-summary.json
+2023-06-30 18:23:00,516 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-metadata.json wandb-metadata.json
+2023-06-30 18:23:00,521 INFO    SenderThread:63837 [dir_watcher.py:finish():403] scan save: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/code/ppo.py code/ppo.py
+2023-06-30 18:23:00,521 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 10
+2023-06-30 18:23:00,522 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:00,522 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-30 18:23:00,523 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:00,523 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-06-30 18:23:00,523 INFO    SenderThread:63837 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-30 18:23:00,802 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-30 18:23:00,803 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: poll_exit
+2023-06-30 18:23:00,890 INFO    wandb-upload_0:63837 [upload_job.py:push():133] Uploaded file /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/output.log
+2023-06-30 18:23:00,976 INFO    wandb-upload_2:63837 [upload_job.py:push():133] Uploaded file /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/config.yaml
+2023-06-30 18:23:01,001 INFO    wandb-upload_1:63837 [upload_job.py:push():133] Uploaded file /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/requirements.txt
+2023-06-30 18:23:01,061 INFO    wandb-upload_3:63837 [upload_job.py:push():133] Uploaded file /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/files/wandb-summary.json
+2023-06-30 18:23:01,266 INFO    Thread-11 (_thread_body):63837 [sender.py:transition_state():602] send defer: 11
+2023-06-30 18:23:01,267 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:01,267 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-30 18:23:01,267 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:01,267 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-06-30 18:23:01,267 INFO    SenderThread:63837 [file_pusher.py:join():164] waiting for file pusher
+2023-06-30 18:23:01,267 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 12
+2023-06-30 18:23:01,267 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:01,268 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-30 18:23:01,268 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:01,268 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-06-30 18:23:01,400 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 13
+2023-06-30 18:23:01,400 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:01,400 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-30 18:23:01,401 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:01,401 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-06-30 18:23:01,401 INFO    SenderThread:63837 [sender.py:transition_state():602] send defer: 14
+2023-06-30 18:23:01,401 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: defer
+2023-06-30 18:23:01,401 DEBUG   SenderThread:63837 [sender.py:send():369] send: final
+2023-06-30 18:23:01,401 INFO    HandlerThread:63837 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-30 18:23:01,402 DEBUG   SenderThread:63837 [sender.py:send():369] send: footer
+2023-06-30 18:23:01,402 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: defer
+2023-06-30 18:23:01,402 INFO    SenderThread:63837 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-06-30 18:23:01,402 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-30 18:23:01,403 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: poll_exit
+2023-06-30 18:23:01,403 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-30 18:23:01,404 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: poll_exit
+2023-06-30 18:23:01,404 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: server_info
+2023-06-30 18:23:01,404 DEBUG   SenderThread:63837 [sender.py:send_request():396] send_request: server_info
+2023-06-30 18:23:01,406 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-30 18:23:01,406 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-30 18:23:01,585 INFO    MainThread:63837 [wandb_run.py:_footer_history_summary_info():3467] rendering history
+2023-06-30 18:23:01,585 INFO    MainThread:63837 [wandb_run.py:_footer_history_summary_info():3499] rendering summary
+2023-06-30 18:23:01,586 INFO    MainThread:63837 [wandb_run.py:_footer_sync_info():3426] logging synced files
+2023-06-30 18:23:01,587 DEBUG   HandlerThread:63837 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-30 18:23:01,587 INFO    HandlerThread:63837 [handler.py:finish():854] shutting down handler
+2023-06-30 18:23:02,410 INFO    WriterThread:63837 [datastore.py:close():298] close: /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230630_182215-c63s4mqe/run-c63s4mqe.wandb
+2023-06-30 18:23:02,590 INFO    SenderThread:63837 [sender.py:finish():1526] shutting down sender
+2023-06-30 18:23:02,590 INFO    SenderThread:63837 [file_pusher.py:finish():159] shutting down file pusher
+2023-06-30 18:23:02,590 INFO    SenderThread:63837 [file_pusher.py:join():164] waiting for file pusher

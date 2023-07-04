@@ -1,0 +1,33 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -116.81
+episode 1 total_reward -436.46
+episode 2 total_reward -190.90
+episode 3 total_reward -192.46
+episode 4 total_reward -97.70
+episode 5 total_reward -113.30
+episode 6 total_reward -107.82
+episode 7 total_reward -362.78
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 155, in <module>
+    ppo(env, 128, 0.99, 0.1, 4, 5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 104, in ppo
+    next_obs, reward, terminated, truncated, info = env.step(action.item())
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/wrappers/record_episode_statistics.py", line 111, in step
+    ) = self.env.step(action)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/wrappers/time_limit.py", line 50, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+                                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/wrappers/order_enforcing.py", line 37, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/wrappers/env_checker.py", line 39, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/envs/box2d/lunar_lander.py", line 599, in step
+    self.render()
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/envs/box2d/lunar_lander.py", line 710, in render
+    self.clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt

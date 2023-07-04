@@ -1,0 +1,62 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward +44.00
+episode 1 total_reward +26.00
+episode 2 total_reward +17.00
+episode 3 total_reward +28.00
+episode 4 total_reward +13.00
+episode 5 total_reward +14.00
+episode 6 total_reward +13.00
+episode 7 total_reward +32.00
+episode 8 total_reward +21.00
+episode 9 total_reward +15.00
+episode 10 total_reward +16.00
+episode 11 total_reward +63.00
+episode 12 total_reward +17.00
+episode 13 total_reward +27.00
+episode 14 total_reward +17.00
+episode 15 total_reward +10.00
+episode 16 total_reward +54.00
+episode 17 total_reward +25.00
+episode 18 total_reward +20.00
+episode 19 total_reward +15.00
+episode 20 total_reward +26.00
+episode 21 total_reward +15.00
+episode 22 total_reward +55.00
+episode 23 total_reward +38.00
+episode 24 total_reward +13.00
+episode 25 total_reward +19.00
+episode 26 total_reward +30.00
+episode 27 total_reward +11.00
+episode 28 total_reward +20.00
+episode 29 total_reward +18.00
+episode 30 total_reward +16.00
+episode 31 total_reward +20.00
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 128, 0.9, 0.2, 8, 0.01, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 224, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, epsilon_clip, update_epochs, step)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 117, in update
+    optimizer.step()
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/optim/adam.py", line 141, in step
+    adam(
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/optim/adam.py", line 281, in adam
+    func(params,
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/optim/adam.py", line 344, in _single_tensor_adam
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+    ^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 32 total_reward +34.00
+episode 33 total_reward +15.00
+episode 34 total_reward +48.00
+episode 35 total_reward +22.00
+episode 36 total_reward +32.00
+episode 37 total_reward +21.00
+episode 38 total_reward +17.00

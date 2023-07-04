@@ -1,0 +1,12 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 268, in <module>
+    ppo(env, 20, 0.99, 0.2, 4, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 234, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, epsilon_clip, policy_epochs)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 104, in update
+    state = torch.tensor(state)
+            ^^^^^^^^^^^^^^^^^^^
+ValueError: only one element tensors can be converted to Python scalars
+episode 0 total_reward -136.51

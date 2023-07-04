@@ -1,0 +1,105 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -119.90
+episode 1 total_reward -84.66
+episode 2 total_reward -176.21
+episode 3 total_reward -114.70
+episode 4 total_reward -130.34
+episode 5 total_reward -308.49
+episode 6 total_reward -162.03
+episode 7 total_reward -95.42
+episode 8 total_reward -114.44
+episode 9 total_reward -316.89
+episode 10 total_reward -364.30
+episode 11 total_reward -72.32
+episode 12 total_reward -210.18
+episode 13 total_reward -86.29
+episode 14 total_reward -441.32
+episode 15 total_reward -207.61
+episode 16 total_reward -83.49
+episode 17 total_reward -462.91
+episode 18 total_reward -94.38
+episode 19 total_reward -391.84
+episode 20 total_reward -162.87
+episode 21 total_reward -188.08
+episode 22 total_reward -46.22
+episode 23 total_reward -315.43
+episode 24 total_reward -114.48
+episode 25 total_reward -112.17
+episode 26 total_reward -196.64
+episode 27 total_reward -142.33
+episode 28 total_reward -353.17
+episode 29 total_reward -369.91
+episode 30 total_reward -199.94
+episode 31 total_reward -51.98
+episode 32 total_reward -117.47
+episode 33 total_reward -117.44
+episode 34 total_reward -99.21
+episode 35 total_reward -112.16
+episode 36 total_reward -78.21
+episode 37 total_reward -80.34
+episode 38 total_reward -149.33
+episode 39 total_reward -120.53
+episode 40 total_reward -189.60
+episode 41 total_reward -121.40
+episode 42 total_reward -240.18
+episode 43 total_reward -289.56
+episode 44 total_reward -124.40
+episode 45 total_reward -145.85
+episode 46 total_reward -243.98
+episode 47 total_reward -39.83
+episode 48 total_reward -466.79
+episode 49 total_reward -140.73
+episode 50 total_reward -135.67
+episode 51 total_reward -232.01
+episode 52 total_reward -135.22
+episode 53 total_reward -154.07
+episode 54 total_reward -105.55
+episode 55 total_reward -120.38
+episode 56 total_reward -64.89
+episode 57 total_reward -96.98
+episode 58 total_reward -348.02
+episode 59 total_reward -431.92
+episode 60 total_reward -110.65
+episode 61 total_reward -211.66
+episode 62 total_reward -268.42
+episode 63 total_reward -323.84
+episode 64 total_reward -194.16
+episode 65 total_reward -222.47
+episode 66 total_reward -116.59
+episode 67 total_reward -315.18
+episode 68 total_reward -124.00
+episode 69 total_reward -225.94
+episode 70 total_reward -114.08
+episode 71 total_reward -328.76
+episode 72 total_reward -140.52
+episode 73 total_reward -254.34
+episode 74 total_reward -146.00
+episode 75 total_reward -88.99
+episode 76 total_reward -468.05
+episode 77 total_reward -119.32
+episode 78 total_reward -16.99
+episode 79 total_reward -152.77
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 128, 0.9, 0.2, 8, 0.01, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 221, in ppo
+    advantages[i] = returns[i] - value_estimates
+    ~~~~~~~~~~^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/fx/traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 436, in _extract_from_extended_frame_gen
+    f.line
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 322, in line
+    return self._line.strip()
+           ^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 80 total_reward -148.07
+episode 81 total_reward -102.21

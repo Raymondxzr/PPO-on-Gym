@@ -1,0 +1,205 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -97.79
+episode 1 total_reward -343.30
+episode 2 total_reward -36.43
+episode 3 total_reward -51.91
+episode 4 total_reward -82.95
+episode 5 total_reward -101.89
+episode 6 total_reward -115.71
+episode 7 total_reward -112.44
+episode 8 total_reward -208.42
+episode 9 total_reward -203.89
+episode 10 total_reward -128.66
+episode 11 total_reward -116.17
+episode 12 total_reward -37.25
+episode 13 total_reward -301.75
+episode 14 total_reward -318.64
+episode 15 total_reward -112.88
+episode 16 total_reward +1.62
+episode 17 total_reward +12.56
+episode 18 total_reward -169.74
+episode 19 total_reward -301.25
+episode 20 total_reward -81.46
+episode 21 total_reward -31.48
+episode 22 total_reward -239.10
+episode 23 total_reward -10.50
+episode 24 total_reward -155.21
+episode 25 total_reward -285.34
+episode 26 total_reward -56.62
+episode 27 total_reward -263.31
+episode 28 total_reward -90.99
+episode 29 total_reward -16.43
+episode 30 total_reward -142.81
+episode 31 total_reward -52.94
+episode 32 total_reward -173.37
+episode 33 total_reward -277.30
+episode 34 total_reward -366.24
+episode 35 total_reward -54.56
+episode 36 total_reward -164.35
+episode 37 total_reward -69.03
+episode 38 total_reward -99.36
+episode 39 total_reward -218.47
+episode 40 total_reward -110.39
+episode 41 total_reward -222.13
+episode 42 total_reward -152.78
+episode 43 total_reward +54.46
+episode 44 total_reward -122.49
+episode 45 total_reward -394.59
+episode 46 total_reward -153.35
+episode 47 total_reward -354.95
+episode 48 total_reward -5.18
+episode 49 total_reward -92.59
+episode 50 total_reward +33.54
+episode 51 total_reward -101.75
+episode 52 total_reward -35.21
+episode 53 total_reward -156.85
+episode 54 total_reward -150.55
+episode 55 total_reward -354.81
+episode 56 total_reward -143.82
+episode 57 total_reward -118.79
+episode 58 total_reward -133.63
+episode 59 total_reward -71.96
+episode 60 total_reward -188.94
+episode 61 total_reward -216.26
+episode 62 total_reward -262.48
+episode 63 total_reward -303.49
+episode 64 total_reward -131.18
+episode 65 total_reward -17.52
+episode 66 total_reward -447.69
+episode 67 total_reward -205.12
+episode 68 total_reward -100.04
+episode 69 total_reward -289.77
+episode 70 total_reward -132.61
+episode 71 total_reward -42.97
+episode 72 total_reward -160.56
+episode 73 total_reward -286.50
+episode 74 total_reward -58.74
+episode 75 total_reward -150.93
+episode 76 total_reward -83.29
+episode 77 total_reward -28.21
+episode 78 total_reward -337.86
+episode 79 total_reward -78.75
+episode 80 total_reward -68.52
+episode 81 total_reward -88.56
+episode 82 total_reward -36.62
+episode 83 total_reward -18.61
+episode 84 total_reward -98.21
+episode 85 total_reward -56.62
+episode 86 total_reward -127.83
+episode 87 total_reward -68.63
+episode 88 total_reward -166.64
+episode 89 total_reward -109.66
+episode 90 total_reward -263.29
+episode 91 total_reward -373.95
+episode 92 total_reward -204.51
+episode 93 total_reward -142.06
+episode 94 total_reward -149.74
+episode 95 total_reward -47.63
+episode 96 total_reward -202.06
+episode 97 total_reward -53.37
+episode 98 total_reward -112.07
+episode 99 total_reward -146.17
+episode 100 total_reward -183.48
+episode 101 total_reward -219.86
+episode 102 total_reward -12.75
+episode 103 total_reward -69.63
+episode 104 total_reward -120.46
+episode 105 total_reward -31.64
+episode 106 total_reward -112.63
+episode 107 total_reward -86.26
+episode 108 total_reward -18.94
+episode 109 total_reward -124.75
+episode 110 total_reward -193.81
+episode 111 total_reward -263.24
+episode 112 total_reward -94.10
+episode 113 total_reward -66.77
+episode 114 total_reward -177.87
+episode 115 total_reward -99.27
+episode 116 total_reward -113.60
+episode 117 total_reward -38.21
+episode 118 total_reward -264.49
+episode 119 total_reward -75.85
+episode 120 total_reward -177.42
+episode 121 total_reward -87.02
+episode 122 total_reward -110.60
+episode 123 total_reward -237.35
+episode 124 total_reward -147.19
+episode 125 total_reward -112.22
+episode 126 total_reward -270.68
+episode 127 total_reward -138.96
+episode 128 total_reward -101.65
+episode 129 total_reward -136.17
+episode 130 total_reward -55.18
+episode 131 total_reward -218.48
+episode 132 total_reward -371.02
+episode 133 total_reward -114.99
+episode 134 total_reward -243.34
+episode 135 total_reward -200.15
+episode 136 total_reward -167.39
+episode 137 total_reward -332.64
+episode 138 total_reward -90.17
+episode 139 total_reward -290.14
+episode 140 total_reward -39.67
+episode 141 total_reward -86.93
+episode 142 total_reward -25.20
+episode 143 total_reward -103.51
+episode 144 total_reward -103.08
+episode 145 total_reward -479.63
+episode 146 total_reward -135.74
+episode 147 total_reward -295.93
+episode 148 total_reward -184.47
+episode 149 total_reward -56.26
+episode 150 total_reward -182.45
+episode 151 total_reward -108.11
+episode 152 total_reward -179.43
+episode 153 total_reward -85.98
+episode 154 total_reward -61.85
+episode 155 total_reward -113.25
+episode 156 total_reward -332.71
+episode 157 total_reward -123.83
+episode 158 total_reward -92.71
+episode 159 total_reward -187.99
+episode 160 total_reward -155.64
+episode 161 total_reward -18.08
+episode 162 total_reward -128.36
+episode 163 total_reward -230.20
+episode 164 total_reward -14.99
+episode 165 total_reward -360.02
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 256, 0.8, 0.2, 8, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 185, in ppo
+    action, log_prob, _ = agent.get_action_and_value(state_tensor)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 34, in get_action_and_value
+    logits = self.actor(x)
+             ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/fx/traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 41, in format_list
+    return StackSummary.from_list(extracted_list).format()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 531, in format
+    formatted_frame = self.format_frame_summary(frame_summary)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 469, in format_frame_summary
+    row.append('    {}\n'.format(stripped_line))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 166 total_reward -177.11
+episode 167 total_reward -244.12
+episode 168 total_reward -200.57

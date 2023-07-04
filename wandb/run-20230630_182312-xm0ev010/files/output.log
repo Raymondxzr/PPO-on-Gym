@@ -1,0 +1,1815 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+observations: -0.00 +1.42 -0.08 +0.10 +0.00 +0.05 +0.00 +0.00
+step 0 total_reward +1.18
+observations: -0.02 +1.38 -0.07 -0.17 +0.02 -0.04 +0.00 +0.00
+step 20 total_reward -4.13
+observations: -0.03 +1.31 -0.10 -0.23 +0.04 +0.06 +0.00 +0.00
+step 40 total_reward -7.82
+observations: -0.05 +1.10 -0.10 -0.69 +0.07 -0.00 +0.00 +0.00
+step 60 total_reward -37.05
+observations: -0.08 +0.77 -0.14 -0.86 +0.08 -0.06 +0.00 +0.00
+step 80 total_reward -25.28
+observations: -0.12 +0.26 -0.21 -1.37 +0.15 +0.20 +0.00 +0.00
+step 100 total_reward -36.19
+observations: -0.14 -0.03 -0.15 -0.80 +0.17 -5.32 +0.00 +1.00
+step 109 total_reward -135.34
+step: 110
+episode 0 total_reward -135.34
+observations: -0.01 +1.40 -0.33 -0.13 +0.01 +0.08 +0.00 +0.00
+step 0 total_reward +0.44
+observations: -0.08 +1.27 -0.44 -0.45 +0.21 +0.27 +0.00 +0.00
+step 20 total_reward -35.26
+observations: -0.18 +1.01 -0.61 -0.66 +0.45 +0.26 +0.00 +0.00
+step 40 total_reward -63.72
+observations: -0.32 +0.63 -0.73 -1.09 +0.76 +0.44 +0.00 +0.00
+step 60 total_reward -105.85
+observations: -0.47 +0.03 -0.85 -1.56 +1.15 +0.42 +0.00 +0.00
+step 80 total_reward -169.40
+observations: -0.53 -0.09 -0.74 +0.18 +1.99 +1.84 +0.00 +1.00
+step 86 total_reward -302.22
+step: 87
+episode 1 total_reward -302.22
+observations: -0.01 +1.41 -0.28 +0.06 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward +1.46
+observations: -0.06 +1.34 -0.30 -0.35 +0.13 +0.19 +0.00 +0.00
+step 20 total_reward -22.49
+observations: -0.12 +1.08 -0.34 -0.80 +0.32 +0.25 +0.00 +0.00
+step 40 total_reward -57.28
+observations: -0.21 +0.66 -0.62 -0.98 +0.63 +0.38 +0.00 +0.00
+step 60 total_reward -80.71
+observations: -0.36 +0.14 -0.92 -1.32 +1.01 +0.38 +0.00 +1.00
+step 80 total_reward -125.20
+observations: -0.39 +0.08 -0.86 +0.05 +1.91 +1.03 +0.00 +1.00
+step 84 total_reward -245.44
+step: 85
+episode 2 total_reward -245.44
+observations: +0.02 +1.42 +0.76 +0.21 -0.02 -0.19 +0.00 +0.00
+step 0 total_reward -0.32
+observations: +0.16 +1.46 +0.72 -0.08 -0.10 +0.03 +0.00 +0.00
+step 20 total_reward -7.82
+observations: +0.32 +1.36 +0.79 -0.38 -0.08 -0.02 +0.00 +0.00
+step 40 total_reward -16.49
+observations: +0.47 +1.08 +0.79 -0.72 -0.09 +0.03 +0.00 +0.00
+step 60 total_reward -16.10
+observations: +0.64 +0.69 +0.86 -1.03 -0.11 -0.08 +0.00 +0.00
+step 80 total_reward -23.32
+observations: +0.82 +0.10 +1.00 -1.46 -0.35 -0.27 +0.00 +0.00
+step 100 total_reward -79.32
+observations: +0.91 -0.21 +0.63 -0.38 -0.43 +4.40 +1.00 +0.00
+step 109 total_reward -206.89
+step: 110
+episode 3 total_reward -206.89
+observations: -0.00 +1.41 -0.11 +0.07 +0.00 -0.02 +0.00 +0.00
+step 0 total_reward +2.44
+observations: -0.02 +1.36 -0.13 -0.30 -0.00 +0.05 +0.00 +0.00
+step 20 total_reward -13.67
+observations: -0.05 +1.16 -0.10 -0.58 -0.00 +0.03 +0.00 +0.00
+step 40 total_reward -22.10
+observations: -0.08 +0.79 -0.18 -1.02 +0.24 +0.29 +0.00 +0.00
+step 60 total_reward -55.39
+observations: -0.12 +0.27 -0.28 -1.33 +0.53 +0.23 +0.00 +0.00
+step 80 total_reward -67.91
+observations: -0.15 -0.00 -0.11 -0.27 +0.58 -3.54 +0.00 +1.00
+step 89 total_reward -154.37
+step: 90
+episode 4 total_reward -154.37
+observations: -0.01 +1.42 -0.60 +0.21 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward +0.97
+observations: -0.13 +1.46 -0.57 +0.01 +0.01 -0.04 +0.00 +0.00
+step 20 total_reward +0.70
+observations: -0.24 +1.38 -0.57 -0.40 +0.02 +0.04 +0.00 +0.00
+step 40 total_reward -6.70
+observations: -0.36 +1.10 -0.60 -0.77 +0.11 +0.00 +0.00 +0.00
+step 60 total_reward -21.34
+observations: -0.49 +0.68 -0.65 -1.04 +0.16 +0.06 +0.00 +0.00
+step 80 total_reward -20.96
+observations: -0.62 +0.16 -0.71 -1.35 +0.23 +0.09 +0.00 +0.00
+step 100 total_reward -40.25
+observations: -0.66 +0.02 -0.23 -0.51 +0.07 -4.82 +0.00 +1.00
+step 105 total_reward -127.85
+step: 106
+episode 5 total_reward -127.85
+observations: -0.00 +1.40 -0.20 -0.20 +0.00 +0.04 +0.00 +0.00
+step 0 total_reward +0.36
+observations: -0.05 +1.21 -0.22 -0.52 +0.14 +0.13 +0.00 +0.00
+step 20 total_reward -23.69
+observations: -0.10 +0.92 -0.28 -0.86 +0.30 +0.24 +0.00 +0.00
+step 40 total_reward -46.74
+observations: -0.16 +0.43 -0.43 -1.23 +0.52 +0.13 +0.00 +0.00
+step 60 total_reward -63.06
+observations: -0.23 +0.00 -0.06 -0.15 +0.46 -2.44 +0.00 +1.00
+step 75 total_reward -114.29
+step: 76
+episode 6 total_reward -114.29
+observations: +0.01 +1.40 +0.45 -0.22 -0.01 -0.10 +0.00 +0.00
+step 0 total_reward -1.04
+observations: +0.10 +1.27 +0.50 -0.47 -0.19 -0.15 +0.00 +0.00
+step 20 total_reward -26.34
+observations: +0.21 +1.03 +0.69 -0.52 -0.32 -0.11 +0.00 +0.00
+step 40 total_reward -37.94
+observations: +0.37 +0.71 +0.79 -0.95 -0.50 -0.26 +0.00 +0.00
+step 60 total_reward -68.85
+observations: +0.55 +0.20 +1.00 -1.32 -0.81 -0.26 +0.00 +0.00
+step 80 total_reward -122.98
+observations: +0.65 -0.09 +1.05 -0.31 -1.24 -6.02 +1.00 +0.00
+step 90 total_reward -255.26
+step: 91
+episode 7 total_reward -255.26
+observations: +0.00 +1.43 +0.18 +0.33 -0.00 -0.04 +0.00 +0.00
+step 0 total_reward +1.35
+observations: +0.04 +1.56 +0.20 +0.23 -0.01 +0.01 +0.00 +0.00
+step 20 total_reward -9.34
+observations: +0.08 +1.58 +0.20 -0.17 +0.07 +0.09 +0.00 +0.00
+step 40 total_reward -13.87
+observations: +0.11 +1.46 +0.09 -0.33 +0.14 +0.10 +0.00 +0.00
+step 60 total_reward -19.50
+observations: +0.12 +1.26 -0.02 -0.49 +0.18 -0.02 +0.00 +0.00
+step 80 total_reward -21.27
+observations: +0.10 +0.99 -0.13 -0.69 +0.11 -0.02 +0.00 +0.00
+step 100 total_reward -11.76
+observations: +0.07 +0.63 -0.23 -0.95 +0.16 +0.01 +0.00 +0.00
+step 120 total_reward -9.32
+observations: +0.02 +0.16 -0.23 -1.14 +0.12 -0.11 +0.00 +0.00
+step 140 total_reward +20.56
+observations: +0.00 -0.04 -0.05 +0.00 -0.00 +0.00 +1.00 +1.00
+step 148 total_reward -50.75
+step: 149
+episode 8 total_reward -50.75
+observations: -0.02 +1.40 -0.78 -0.25 +0.02 +0.21 +0.00 +0.00
+step 0 total_reward -2.00
+observations: -0.18 +1.23 -0.85 -0.48 +0.21 +0.20 +0.00 +0.00
+step 20 total_reward -23.50
+observations: -0.36 +0.97 -0.98 -0.77 +0.47 +0.32 +0.00 +0.00
+step 40 total_reward -57.55
+observations: -0.57 +0.53 -1.13 -1.20 +0.82 +0.53 +0.00 +0.00
+step 60 total_reward -108.80
+observations: -0.74 +0.08 -0.50 +0.27 +1.70 +1.92 +0.00 +1.00
+step 76 total_reward -239.75
+step: 77
+episode 9 total_reward -239.75
+observations: -0.01 +1.42 -0.58 +0.27 +0.01 +0.14 +0.00 +0.00
+step 0 total_reward -2.31
+observations: -0.13 +1.46 -0.61 +0.05 +0.13 +0.13 +0.00 +0.00
+step 20 total_reward -17.21
+observations: -0.25 +1.38 -0.62 -0.32 +0.19 -0.03 +0.00 +0.00
+step 40 total_reward -26.06
+observations: -0.39 +1.24 -0.76 -0.36 +0.20 +0.08 +0.00 +0.00
+step 60 total_reward -34.28
+observations: -0.55 +1.00 -0.92 -0.62 +0.32 +0.24 +0.00 +0.00
+step 80 total_reward -60.55
+observations: -0.75 +0.66 -1.06 -0.96 +0.59 +0.26 +0.00 +0.00
+step 100 total_reward -106.67
+observations: -1.00 +0.14 -1.39 -1.35 +1.02 +0.65 +0.00 +0.00
+step 120 total_reward -202.71
+observations: -1.01 +0.11 -1.45 -1.35 +1.05 +0.65 +0.00 +0.00
+step 121 total_reward -302.71
+step: 122
+episode 10 total_reward -302.71
+observations: -0.00 +1.40 -0.10 -0.13 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward +3.46
+observations: -0.03 +1.29 -0.14 -0.39 +0.11 +0.11 +0.00 +0.00
+step 20 total_reward -23.07
+observations: -0.06 +1.06 -0.17 -0.68 +0.23 +0.05 +0.00 +0.00
+step 40 total_reward -43.37
+observations: -0.10 +0.69 -0.26 -1.00 +0.21 +0.04 +0.00 +0.00
+step 60 total_reward -38.64
+observations: -0.16 +0.16 -0.29 -1.37 +0.25 -0.01 +0.00 +0.00
+step 80 total_reward -33.78
+observations: -0.18 -0.03 -0.15 -0.73 +0.19 -4.96 +0.00 +1.00
+step 86 total_reward -122.78
+step: 87
+episode 11 total_reward -122.78
+observations: +0.00 +1.42 +0.15 +0.10 -0.00 -0.06 +0.00 +0.00
+step 0 total_reward +0.42
+observations: +0.03 +1.42 +0.17 -0.21 -0.11 -0.10 +0.00 +0.00
+step 20 total_reward -21.13
+observations: +0.06 +1.22 +0.16 -0.57 -0.18 -0.06 +0.00 +0.00
+step 40 total_reward -42.23
+observations: +0.11 +0.91 +0.29 -0.85 -0.32 -0.23 +0.00 +0.00
+step 60 total_reward -58.20
+observations: +0.17 +0.43 +0.47 -1.18 -0.62 -0.31 +0.00 +0.00
+step 80 total_reward -81.57
+observations: +0.24 +0.03 +0.24 -0.53 -1.05 -5.81 +1.00 +0.00
+step 94 total_reward -196.17
+step: 95
+episode 12 total_reward -196.17
+observations: +0.01 +1.39 +0.60 -0.37 -0.01 -0.09 +0.00 +0.00
+step 0 total_reward +0.08
+observations: +0.13 +1.22 +0.65 -0.50 -0.14 -0.17 +0.00 +0.00
+step 20 total_reward -10.29
+observations: +0.27 +0.91 +0.74 -0.79 -0.31 -0.16 +0.00 +0.00
+step 40 total_reward -26.45
+observations: +0.44 +0.49 +1.05 -1.02 -0.53 -0.29 +0.00 +0.00
+step 60 total_reward -61.55
+observations: +0.54 +0.27 +0.46 -0.03 -0.72 -2.81 +1.00 +0.00
+step 69 total_reward -174.08
+step: 70
+episode 13 total_reward -174.08
+observations: +0.01 +1.41 +0.46 -0.03 -0.01 -0.13 +0.00 +0.00
+step 0 total_reward -1.47
+observations: +0.11 +1.32 +0.58 -0.37 -0.23 -0.42 +0.00 +0.00
+step 20 total_reward -39.61
+observations: +0.23 +1.06 +0.72 -0.79 -0.74 -0.51 +0.00 +0.00
+step 40 total_reward -105.56
+observations: +0.39 +0.59 +0.98 -1.27 -1.33 -0.66 +0.00 +0.00
+step 60 total_reward -182.05
+observations: +0.55 +0.14 -0.08 -0.03 -1.81 +0.29 +0.00 +0.00
+step 74 total_reward -354.19
+step: 75
+episode 14 total_reward -354.19
+observations: +0.01 +1.43 +0.59 +0.48 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -3.47
+observations: +0.13 +1.62 +0.66 +0.26 -0.20 -0.36 +0.00 +0.00
+step 20 total_reward -39.66
+observations: +0.27 +1.67 +0.82 -0.07 -0.59 -0.55 +0.00 +0.00
+step 40 total_reward -97.84
+observations: +0.46 +1.53 +1.23 -0.52 -1.32 -0.78 +0.00 +0.00
+step 60 total_reward -215.06
+observations: +0.74 +1.18 +1.63 -1.08 -2.01 -0.66 +0.00 +0.00
+step 80 total_reward -327.98
+observations: +1.00 +0.74 +1.80 -1.51 -2.46 -0.49 +0.00 +0.00
+step 95 total_reward -494.08
+step: 96
+episode 15 total_reward -494.08
+observations: +0.00 +1.39 +0.13 -0.55 -0.00 +0.00 +0.00 +0.00
+step 0 total_reward -1.09
+observations: +0.03 +1.11 +0.10 -0.70 +0.03 +0.08 +0.00 +0.00
+step 20 total_reward +7.24
+observations: +0.05 +0.71 +0.15 -1.02 -0.10 -0.26 +0.00 +0.00
+step 40 total_reward +5.78
+observations: +0.09 +0.20 +0.26 -1.27 -0.32 -0.23 +0.00 +0.00
+step 60 total_reward +4.26
+observations: +0.11 -0.02 +0.19 -0.57 -0.26 +4.49 +1.00 +0.00
+step 68 total_reward -79.17
+step: 69
+episode 16 total_reward -79.17
+observations: -0.01 +1.40 -0.71 -0.27 +0.02 +0.20 +0.00 +0.00
+step 0 total_reward -2.11
+observations: -0.16 +1.20 -0.75 -0.62 +0.21 +0.18 +0.00 +0.00
+step 20 total_reward -25.04
+observations: -0.31 +0.86 -0.84 -0.86 +0.31 +0.07 +0.00 +0.00
+step 40 total_reward -30.88
+observations: -0.51 +0.41 -1.08 -1.14 +0.58 +0.35 +0.00 +0.00
+step 60 total_reward -70.32
+observations: -0.64 +0.11 -0.25 +0.16 +1.62 +1.02 +0.00 +0.00
+step 75 total_reward -198.77
+step: 76
+episode 17 total_reward -198.77
+observations: +0.01 +1.39 +0.36 -0.44 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -2.26
+observations: +0.08 +1.09 +0.32 -0.81 -0.07 +0.01 +0.00 +0.00
+step 20 total_reward -9.35
+observations: +0.14 +0.64 +0.39 -1.09 -0.02 +0.00 +0.00 +0.00
+step 40 total_reward +8.68
+observations: +0.22 +0.07 +0.37 -1.46 -0.00 +0.01 +1.00 +0.00
+step 60 total_reward +26.89
+observations: +0.22 +0.01 -0.30 -0.77 +0.09 +5.02 +1.00 +0.00
+step 62 total_reward -70.40
+step: 63
+episode 18 total_reward -70.40
+observations: -0.01 +1.43 -0.47 +0.41 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -0.91
+observations: -0.10 +1.52 -0.52 +0.02 +0.24 +0.35 +0.00 +0.00
+step 20 total_reward -24.19
+observations: -0.22 +1.48 -0.71 -0.18 +0.55 +0.39 +0.00 +0.00
+step 40 total_reward -76.65
+observations: -0.37 +1.30 -0.90 -0.60 +0.96 +0.36 +0.00 +0.00
+step 60 total_reward -138.51
+observations: -0.56 +0.92 -1.13 -1.02 +1.20 +0.20 +0.00 +0.00
+step 80 total_reward -182.05
+observations: -0.81 +0.38 -1.40 -0.15 +2.00 +5.17 +0.00 +1.00
+step 100 total_reward -309.45
+step: 101
+episode 19 total_reward -309.45
+observations: +0.01 +1.41 +0.53 +0.02 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -0.42
+observations: +0.12 +1.33 +0.56 -0.36 -0.08 -0.15 +0.00 +0.00
+step 20 total_reward -13.86
+observations: +0.24 +1.10 +0.64 -0.65 -0.18 -0.09 +0.00 +0.00
+step 40 total_reward -29.45
+observations: +0.36 +0.74 +0.66 -0.94 -0.20 +0.00 +0.00 +0.00
+step 60 total_reward -27.34
+observations: +0.50 +0.23 +0.69 -1.35 -0.11 +0.18 +0.00 +0.00
+step 80 total_reward -28.73
+observations: +0.54 +0.06 +0.48 -0.77 +0.12 +5.15 +1.00 +1.00
+step 86 total_reward -110.18
+step: 87
+episode 20 total_reward -110.18
+observations: -0.01 +1.40 -0.63 -0.20 +0.01 +0.13 +0.00 +0.00
+step 0 total_reward -1.04
+observations: -0.14 +1.20 -0.69 -0.59 +0.16 +0.15 +0.00 +0.00
+step 20 total_reward -22.63
+observations: -0.28 +0.86 -0.75 -0.87 +0.21 +0.05 +0.00 +0.00
+step 40 total_reward -22.70
+observations: -0.43 +0.38 -0.80 -1.21 +0.24 +0.03 +0.00 +0.00
+step 60 total_reward -24.90
+observations: -0.54 -0.00 -1.40 -0.48 +0.47 -0.00 +0.00 +0.00
+step 73 total_reward -125.69
+step: 74
+episode 21 total_reward -125.69
+observations: -0.01 +1.41 -0.76 +0.06 +0.02 +0.20 +0.00 +0.00
+step 0 total_reward -1.60
+observations: -0.17 +1.34 -0.85 -0.41 +0.38 +0.48 +0.00 +0.00
+step 20 total_reward -49.44
+observations: -0.37 +1.11 -1.05 -0.72 +0.89 +0.50 +0.00 +0.00
+step 40 total_reward -117.72
+observations: -0.60 +0.69 -1.29 -1.18 +1.36 +0.61 +0.00 +0.00
+step 60 total_reward -188.48
+observations: -0.90 +0.04 -1.58 -1.72 +2.03 +0.76 +0.00 +0.00
+step 80 total_reward -314.07
+observations: -0.98 -0.15 -1.35 +0.00 +2.21 -0.09 +0.00 +0.00
+step 85 total_reward -444.22
+step: 86
+episode 22 total_reward -444.22
+observations: -0.00 +1.43 -0.23 +0.46 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward +1.52
+observations: -0.05 +1.55 -0.20 +0.12 +0.03 +0.01 +0.00 +0.00
+step 20 total_reward +13.30
+observations: -0.08 +1.56 -0.12 -0.07 -0.05 -0.16 +0.00 +0.00
+step 40 total_reward +17.24
+observations: -0.10 +1.50 -0.06 -0.25 -0.22 -0.23 +0.00 +0.00
+step 60 total_reward -8.47
+observations: -0.10 +1.33 +0.08 -0.50 -0.53 -0.32 +0.00 +0.00
+step 80 total_reward -49.54
+observations: -0.06 +1.03 +0.41 -0.77 -0.93 -0.36 +0.00 +0.00
+step 100 total_reward -98.11
+observations: +0.05 +0.60 +0.74 -1.18 -1.31 -0.43 +0.00 +0.00
+step 120 total_reward -146.77
+observations: +0.21 +0.04 +0.06 +0.03 -1.65 -0.24 +1.00 +0.00
+step 139 total_reward -288.54
+step: 140
+episode 23 total_reward -288.54
+observations: -0.01 +1.42 -0.67 +0.08 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +0.65
+observations: -0.15 +1.45 -0.70 -0.05 +0.21 +0.22 +0.00 +0.00
+step 20 total_reward -27.24
+observations: -0.30 +1.36 -0.80 -0.33 +0.39 +0.07 +0.00 +0.00
+step 40 total_reward -58.41
+observations: -0.49 +1.18 -1.05 -0.59 +0.52 +0.19 +0.00 +0.00
+step 60 total_reward -95.41
+observations: -0.73 +0.87 -1.32 -0.79 +0.71 +0.07 +0.00 +0.00
+step 80 total_reward -137.33
+observations: -1.01 +0.43 -1.51 -1.17 +0.83 +0.14 +0.00 +0.00
+step 100 total_reward -280.79
+step: 101
+episode 24 total_reward -280.79
+observations: +0.00 +1.42 +0.23 +0.22 -0.00 -0.02 +0.00 +0.00
+step 0 total_reward +1.83
+observations: +0.05 +1.49 +0.27 +0.01 +0.00 -0.09 +0.00 +0.00
+step 20 total_reward -1.85
+observations: +0.10 +1.44 +0.28 -0.21 -0.11 -0.17 +0.00 +0.00
+step 40 total_reward -18.90
+observations: +0.17 +1.27 +0.38 -0.60 -0.43 -0.52 +0.00 +0.00
+step 60 total_reward -71.93
+observations: +0.26 +0.95 +0.58 -0.91 -0.94 -0.44 +0.00 +0.00
+step 80 total_reward -132.13
+observations: +0.43 +0.46 +0.97 -1.29 -1.38 -0.50 +0.00 +0.00
+step 100 total_reward -196.48
+observations: +0.67 -0.24 +1.35 -1.85 -1.89 -0.46 +0.00 +0.00
+step 120 total_reward -324.15
+observations: +0.72 -0.33 +1.84 -0.18 -2.29 -1.68 +0.00 +0.00
+step 123 total_reward -436.43
+step: 124
+episode 25 total_reward -436.43
+observations: +0.00 +1.43 +0.18 +0.47 -0.01 -0.08 +0.00 +0.00
+step 0 total_reward +0.64
+observations: +0.03 +1.59 +0.13 +0.27 -0.07 -0.01 +0.00 +0.00
+step 20 total_reward -4.02
+observations: +0.07 +1.64 +0.21 +0.02 -0.12 -0.11 +0.00 +0.00
+step 40 total_reward -7.06
+observations: +0.12 +1.61 +0.32 -0.15 -0.25 -0.16 +0.00 +0.00
+step 60 total_reward -34.80
+observations: +0.19 +1.45 +0.46 -0.50 -0.52 -0.28 +0.00 +0.00
+step 80 total_reward -80.65
+observations: +0.31 +1.18 +0.80 -0.67 -0.72 -0.08 +0.00 +0.00
+step 100 total_reward -116.37
+observations: +0.51 +0.82 +1.28 -0.86 -0.73 -0.02 +0.00 +0.00
+step 120 total_reward -144.18
+observations: +0.79 +0.32 +1.44 -1.35 -0.96 -0.32 +0.00 +0.00
+step 140 total_reward -199.93
+observations: +0.95 -0.04 +1.51 -0.15 -1.10 -3.68 +1.00 +0.00
+step 151 total_reward -325.33
+step: 152
+episode 26 total_reward -325.33
+observations: -0.01 +1.39 -0.72 -0.55 +0.02 +0.16 +0.00 +0.00
+step 0 total_reward -1.03
+observations: -0.16 +1.12 -0.82 -0.63 +0.16 +0.09 +0.00 +0.00
+step 20 total_reward -5.93
+observations: -0.33 +0.74 -0.88 -1.07 +0.29 +0.23 +0.00 +0.00
+step 40 total_reward -21.89
+observations: -0.51 +0.19 -0.96 -1.33 +0.40 +0.07 +0.00 +0.00
+step 60 total_reward -34.03
+observations: -0.61 -0.12 -0.85 -0.55 +0.20 -4.90 +0.00 +1.00
+step 70 total_reward -142.18
+step: 71
+episode 27 total_reward -142.18
+observations: -0.01 +1.43 -0.35 +0.39 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -0.15
+observations: -0.08 +1.51 -0.39 +0.03 +0.15 +0.19 +0.00 +0.00
+step 20 total_reward -10.96
+observations: -0.16 +1.44 -0.47 -0.37 +0.43 +0.30 +0.00 +0.00
+step 40 total_reward -53.70
+observations: -0.27 +1.19 -0.67 -0.74 +0.82 +0.43 +0.00 +0.00
+step 60 total_reward -112.51
+observations: -0.45 +0.76 -1.06 -1.19 +1.43 +0.71 +0.00 +0.00
+step 80 total_reward -200.75
+observations: -0.70 +0.10 -1.51 -1.76 +2.06 +0.59 +0.00 +0.00
+step 100 total_reward -322.21
+observations: -0.82 -0.17 -2.05 -0.23 +2.42 +2.18 +0.00 +1.00
+step 107 total_reward -456.71
+step: 108
+episode 28 total_reward -456.71
+observations: +0.01 +1.42 +0.38 +0.19 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -0.50
+observations: +0.08 +1.41 +0.36 -0.23 -0.07 -0.08 +0.00 +0.00
+step 20 total_reward -7.84
+observations: +0.16 +1.23 +0.44 -0.51 -0.17 -0.15 +0.00 +0.00
+step 40 total_reward -27.70
+observations: +0.26 +0.95 +0.62 -0.75 -0.28 -0.17 +0.00 +0.00
+step 60 total_reward -44.36
+observations: +0.39 +0.55 +0.76 -0.94 -0.35 -0.06 +0.00 +0.00
+step 80 total_reward -46.94
+observations: +0.56 +0.06 +0.94 -1.16 -0.43 -0.13 +0.00 +0.00
+step 100 total_reward -74.79
+observations: +0.60 -0.04 +0.98 -0.53 -0.33 +3.75 +1.00 +0.00
+step 104 total_reward -165.78
+step: 105
+episode 29 total_reward -165.78
+observations: -0.01 +1.40 -0.54 -0.18 +0.01 +0.17 +0.00 +0.00
+step 0 total_reward -2.35
+observations: -0.12 +1.25 -0.61 -0.51 +0.31 +0.35 +0.00 +0.00
+step 20 total_reward -41.63
+observations: -0.27 +0.97 -0.80 -0.86 +0.74 +0.53 +0.00 +0.00
+step 40 total_reward -98.94
+observations: -0.45 +0.50 -1.05 -1.26 +1.26 +0.59 +0.00 +0.00
+step 60 total_reward -166.22
+observations: -0.59 +0.14 -0.77 +0.06 +1.66 +2.38 +0.00 +1.00
+step 72 total_reward -329.03
+step: 73
+episode 30 total_reward -329.03
+observations: -0.01 +1.40 -0.76 -0.18 +0.02 +0.20 +0.00 +0.00
+step 0 total_reward -1.96
+observations: -0.17 +1.25 -0.78 -0.48 +0.16 +0.08 +0.00 +0.00
+step 20 total_reward -16.44
+observations: -0.33 +0.98 -0.84 -0.78 +0.18 -0.04 +0.00 +0.00
+step 40 total_reward -19.66
+observations: -0.52 +0.56 -1.03 -1.01 +0.25 +0.05 +0.00 +0.00
+step 60 total_reward -32.09
+observations: -0.73 +0.05 -1.10 -1.34 +0.32 +0.09 +0.00 +0.00
+step 80 total_reward -66.74
+observations: -0.78 -0.07 -1.07 -0.70 +0.18 -4.71 +0.00 +1.00
+step 84 total_reward -160.25
+step: 85
+episode 31 total_reward -160.25
+observations: +0.01 +1.41 +0.55 +0.04 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -0.40
+observations: +0.13 +1.32 +0.57 -0.36 -0.15 -0.09 +0.00 +0.00
+step 20 total_reward -18.35
+observations: +0.24 +1.11 +0.60 -0.62 -0.26 -0.18 +0.00 +0.00
+step 40 total_reward -31.74
+observations: +0.38 +0.79 +0.76 -0.87 -0.52 -0.38 +0.00 +0.00
+step 60 total_reward -63.30
+observations: +0.54 +0.30 +0.96 -1.33 -1.00 -0.58 +0.00 +0.00
+step 80 total_reward -134.98
+observations: +0.82 -0.22 +0.26 +0.14 -2.46 +0.00 +0.00 +0.00
+step 100 total_reward -430.25
+step: 101
+episode 32 total_reward -430.25
+observations: -0.01 +1.42 -0.42 +0.17 +0.01 +0.08 +0.00 +0.00
+step 0 total_reward -1.74
+observations: -0.09 +1.45 -0.44 -0.09 +0.16 +0.24 +0.00 +0.00
+step 20 total_reward -22.37
+observations: -0.18 +1.31 -0.50 -0.46 +0.37 +0.24 +0.00 +0.00
+step 40 total_reward -54.34
+observations: -0.28 +0.98 -0.51 -0.97 +0.49 +0.15 +0.00 +0.00
+step 60 total_reward -78.75
+observations: -0.40 +0.50 -0.67 -1.26 +0.52 -0.06 +0.00 +0.00
+step 80 total_reward -78.99
+observations: -0.53 +0.02 -0.70 -0.36 +0.41 -4.07 +0.00 +1.00
+step 96 total_reward -161.83
+step: 97
+episode 33 total_reward -161.83
+observations: -0.01 +1.41 -0.28 +0.06 +0.01 +0.03 +0.00 +0.00
+step 0 total_reward +1.06
+observations: -0.06 +1.36 -0.28 -0.24 -0.06 -0.04 +0.00 +0.00
+step 20 total_reward -8.75
+observations: -0.11 +1.19 -0.21 -0.53 -0.13 -0.17 +0.00 +0.00
+step 40 total_reward -21.26
+observations: -0.15 +0.88 -0.20 -0.87 -0.31 -0.04 +0.00 +0.00
+step 60 total_reward -43.84
+observations: -0.17 +0.47 -0.03 -0.97 -0.31 +0.11 +0.00 +0.00
+step 80 total_reward -15.72
+observations: -0.17 -0.04 -0.09 -0.84 -0.01 +5.07 +1.00 +1.00
+step 99 total_reward -97.33
+step: 100
+episode 34 total_reward -97.33
+observations: -0.01 +1.42 -0.65 +0.25 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +0.72
+observations: -0.15 +1.51 -0.71 +0.15 +0.20 +0.15 +0.00 +0.00
+step 20 total_reward -33.72
+observations: -0.30 +1.49 -0.83 -0.18 +0.36 +0.10 +0.00 +0.00
+step 40 total_reward -64.16
+observations: -0.47 +1.32 -0.89 -0.52 +0.35 -0.08 +0.00 +0.00
+step 60 total_reward -70.80
+observations: -0.65 +0.97 -0.96 -0.95 +0.31 -0.06 +0.00 +0.00
+step 80 total_reward -77.01
+observations: -0.87 +0.49 -1.06 -1.24 +0.20 -0.20 +0.00 +0.00
+step 100 total_reward -78.38
+observations: -1.00 +0.14 -1.07 -0.05 +0.07 +0.00 +1.00 +0.00
+step 112 total_reward -170.68
+step: 113
+episode 35 total_reward -170.68
+observations: -0.01 +1.42 -0.75 +0.22 +0.02 +0.17 +0.00 +0.00
+step 0 total_reward -0.49
+observations: -0.17 +1.48 -0.79 -0.01 +0.16 +0.11 +0.00 +0.00
+step 20 total_reward -23.76
+observations: -0.34 +1.40 -0.89 -0.31 +0.21 +0.09 +0.00 +0.00
+step 40 total_reward -40.84
+observations: -0.51 +1.17 -0.87 -0.69 +0.17 -0.12 +0.00 +0.00
+step 60 total_reward -39.10
+observations: -0.68 +0.77 -0.88 -1.03 -0.06 -0.17 +0.00 +0.00
+step 80 total_reward -29.66
+observations: -0.85 +0.25 -0.80 -1.26 -0.21 -0.04 +0.00 +0.00
+step 100 total_reward -47.07
+observations: -0.94 -0.09 -0.19 +0.02 -0.18 -0.00 +1.00 +0.00
+step 111 total_reward -165.97
+step: 112
+episode 36 total_reward -165.97
+observations: +0.00 +1.41 +0.23 -0.11 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -1.02
+observations: +0.05 +1.28 +0.30 -0.39 -0.09 -0.10 +0.00 +0.00
+step 20 total_reward -23.09
+observations: +0.11 +1.06 +0.28 -0.61 -0.13 +0.13 +0.00 +0.00
+step 40 total_reward -26.97
+observations: +0.18 +0.73 +0.30 -0.84 +0.09 +0.21 +0.00 +0.00
+step 60 total_reward -15.11
+observations: +0.24 +0.26 +0.31 -1.25 +0.28 +0.08 +0.00 +0.00
+step 80 total_reward -33.91
+observations: +0.27 -0.03 +0.84 -0.41 +0.21 -3.39 +0.00 +1.00
+step 90 total_reward -141.01
+step: 91
+episode 37 total_reward -141.01
+observations: +0.01 +1.42 +0.29 +0.28 -0.01 -0.09 +0.00 +0.00
+step 0 total_reward +0.15
+observations: +0.07 +1.51 +0.38 +0.00 -0.22 -0.32 +0.00 +0.00
+step 20 total_reward -29.37
+observations: +0.17 +1.48 +0.58 -0.12 -0.50 -0.23 +0.00 +0.00
+step 40 total_reward -79.11
+observations: +0.30 +1.35 +0.86 -0.35 -0.79 -0.28 +0.00 +0.00
+step 60 total_reward -134.17
+observations: +0.51 +1.12 +1.14 -0.76 -1.11 -0.36 +0.00 +0.00
+step 80 total_reward -195.64
+observations: +0.79 +0.68 +1.61 -1.19 -1.41 -0.33 +0.00 +0.00
+step 100 total_reward -273.45
+observations: +1.01 +0.29 +1.84 -1.51 -1.62 -0.25 +1.00 +0.00
+step 113 total_reward -430.97
+step: 114
+episode 38 total_reward -430.97
+observations: -0.01 +1.40 -0.59 -0.16 +0.02 +0.17 +0.00 +0.00
+step 0 total_reward -2.12
+observations: -0.13 +1.25 -0.64 -0.42 +0.24 +0.23 +0.00 +0.00
+step 20 total_reward -28.13
+observations: -0.27 +1.01 -0.84 -0.64 +0.36 +0.12 +0.00 +0.00
+step 40 total_reward -49.77
+observations: -0.45 +0.65 -0.93 -1.02 +0.49 +0.16 +0.00 +0.00
+step 60 total_reward -70.45
+observations: -0.65 +0.09 -1.02 -1.44 +0.64 +0.09 +0.00 +0.00
+step 80 total_reward -111.51
+observations: -0.72 -0.14 -1.32 -0.94 +0.59 -4.15 +0.00 +1.00
+step 87 total_reward -217.67
+step: 88
+episode 39 total_reward -217.67
+observations: +0.00 +1.43 +0.19 +0.33 -0.00 -0.00 +0.00 +0.00
+step 0 total_reward +2.01
+observations: +0.04 +1.50 +0.20 -0.05 -0.06 -0.08 +0.00 +0.00
+step 20 total_reward +4.89
+observations: +0.09 +1.44 +0.26 -0.18 -0.08 -0.01 +0.00 +0.00
+step 40 total_reward -5.95
+observations: +0.15 +1.28 +0.34 -0.51 -0.19 -0.13 +0.00 +0.00
+step 60 total_reward -32.43
+observations: +0.22 +0.98 +0.33 -0.85 -0.31 -0.01 +0.00 +0.00
+step 80 total_reward -47.69
+observations: +0.30 +0.53 +0.47 -1.20 -0.47 -0.27 +0.00 +0.00
+step 100 total_reward -63.16
+observations: +0.40 +0.03 +0.32 -0.09 -1.17 -2.94 +1.00 +0.00
+step 120 total_reward -9.66
+observations: +0.47 -0.02 +0.24 -0.02 -2.92 +0.38 +0.00 +0.00
+step 133 total_reward -327.38
+step: 134
+episode 40 total_reward -327.38
+observations: +0.01 +1.41 +0.42 -0.03 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -1.45
+observations: +0.10 +1.33 +0.47 -0.30 -0.22 -0.21 +0.00 +0.00
+step 20 total_reward -30.16
+observations: +0.20 +1.13 +0.60 -0.57 -0.39 -0.24 +0.00 +0.00
+step 40 total_reward -57.75
+observations: +0.33 +0.77 +0.75 -1.04 -0.83 -0.60 +0.00 +0.00
+step 60 total_reward -116.82
+observations: +0.51 +0.23 +0.96 -1.46 -1.40 -0.57 +0.00 +0.00
+step 80 total_reward -194.82
+observations: +0.56 +0.07 +0.31 -0.24 -1.43 +3.83 +1.00 +0.00
+step 85 total_reward -317.40
+step: 86
+episode 41 total_reward -317.40
+observations: +0.01 +1.43 +0.52 +0.35 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward +0.16
+observations: +0.12 +1.55 +0.60 +0.21 -0.23 -0.16 +0.00 +0.00
+step 20 total_reward -38.59
+observations: +0.24 +1.55 +0.67 -0.19 -0.38 -0.16 +0.00 +0.00
+step 40 total_reward -62.29
+observations: +0.39 +1.37 +0.79 -0.61 -0.66 -0.35 +0.00 +0.00
+step 60 total_reward -109.01
+observations: +0.58 +1.03 +1.10 -0.93 -1.04 -0.30 +0.00 +0.00
+step 80 total_reward -168.14
+observations: +0.83 +0.50 +1.27 -1.42 -1.30 -0.21 +0.00 +0.00
+step 100 total_reward -220.50
+observations: +0.99 +0.18 +1.80 -0.19 -2.08 -1.29 +1.00 +0.00
+step 111 total_reward -374.07
+step: 112
+episode 42 total_reward -374.07
+observations: -0.01 +1.41 -0.65 +0.07 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +0.56
+observations: -0.14 +1.34 -0.63 -0.34 +0.11 +0.04 +0.00 +0.00
+step 20 total_reward -10.63
+observations: -0.27 +1.07 -0.69 -0.83 +0.22 +0.20 +0.00 +0.00
+step 40 total_reward -33.38
+observations: -0.43 +0.64 -0.89 -1.12 +0.63 +0.51 +0.00 +0.00
+step 60 total_reward -77.76
+observations: -0.62 +0.05 -1.04 -1.55 +1.07 +0.42 +0.00 +1.00
+step 80 total_reward -141.35
+observations: -0.63 +0.03 -1.28 -0.53 +1.33 +6.06 +0.00 +1.00
+step 81 total_reward -241.35
+step: 82
+episode 43 total_reward -241.35
+observations: +0.00 +1.39 +0.22 -0.51 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -1.43
+observations: +0.05 +1.09 +0.27 -0.83 -0.16 -0.19 +0.00 +0.00
+step 20 total_reward -20.31
+observations: +0.11 +0.67 +0.39 -1.05 -0.32 -0.15 +0.00 +0.00
+step 40 total_reward -22.78
+observations: +0.22 +0.17 +0.69 -1.21 -0.48 -0.10 +0.00 +0.00
+step 60 total_reward -28.79
+observations: +0.24 +0.04 -0.05 -0.24 -0.16 +0.97 +0.00 +0.00
+step 80 total_reward +119.49
+observations: +0.24 -0.00 -0.12 -0.24 +0.18 +1.33 +0.00 +1.00
+step 86 total_reward +21.35
+step: 87
+episode 44 total_reward +21.35
+observations: -0.01 +1.39 -0.25 -0.51 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward -0.75
+observations: -0.05 +1.10 -0.24 -0.74 +0.04 +0.03 +0.00 +0.00
+step 20 total_reward +1.94
+observations: -0.10 +0.68 -0.22 -1.07 -0.05 -0.10 +0.00 +0.00
+step 40 total_reward +7.87
+observations: -0.14 +0.17 -0.13 -1.16 -0.20 -0.19 +0.00 +0.00
+step 60 total_reward +30.17
+observations: -0.15 -0.02 -0.21 -0.63 -0.24 +4.34 +1.00 +0.00
+step 67 total_reward -72.39
+step: 68
+episode 45 total_reward -72.39
+observations: -0.01 +1.42 -0.38 +0.14 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward +0.24
+observations: -0.09 +1.44 -0.42 -0.02 +0.14 +0.13 +0.00 +0.00
+step 20 total_reward -19.23
+observations: -0.18 +1.34 -0.59 -0.35 +0.41 +0.23 +0.00 +0.00
+step 40 total_reward -64.76
+observations: -0.32 +1.11 -0.80 -0.64 +0.60 +0.21 +0.00 +0.00
+step 60 total_reward -101.74
+observations: -0.51 +0.75 -1.03 -1.00 +0.85 +0.15 +0.00 +0.00
+step 80 total_reward -144.39
+observations: -0.73 +0.19 -1.15 -1.45 +0.92 -0.06 +0.00 +0.00
+step 100 total_reward -179.04
+observations: -0.82 -0.02 -1.38 -0.37 +0.71 -3.08 +0.00 +1.00
+step 107 total_reward -274.36
+step: 108
+episode 46 total_reward -274.36
+observations: -0.00 +1.39 -0.17 -0.52 +0.00 -0.01 +0.00 +0.00
+step 0 total_reward -0.85
+observations: -0.04 +1.05 -0.17 -0.92 -0.06 -0.06 +0.00 +0.00
+step 20 total_reward -13.44
+observations: -0.07 +0.59 -0.19 -1.21 -0.11 +0.01 +0.00 +0.00
+step 40 total_reward -3.06
+observations: -0.11 -0.04 -0.00 +0.00 +0.00 +0.00 +1.00 +0.00
+step 60 total_reward -56.85
+step: 61
+episode 47 total_reward -56.85
+observations: +0.01 +1.41 +0.36 +0.07 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -1.19
+observations: +0.08 +1.34 +0.36 -0.32 -0.08 -0.01 +0.00 +0.00
+step 20 total_reward -13.29
+observations: +0.15 +1.15 +0.38 -0.56 -0.07 +0.01 +0.00 +0.00
+step 40 total_reward -15.50
+observations: +0.24 +0.81 +0.46 -0.96 -0.16 -0.24 +0.00 +0.00
+step 60 total_reward -33.74
+observations: +0.34 +0.37 +0.54 -1.08 -0.33 -0.07 +0.00 +0.00
+step 80 total_reward -33.82
+observations: +0.39 +0.12 -0.13 -0.37 -0.15 +4.13 +1.00 +0.00
+step 91 total_reward -96.05
+step: 92
+episode 48 total_reward -96.05
+observations: +0.01 +1.40 +0.53 -0.28 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -1.05
+observations: +0.12 +1.26 +0.56 -0.44 -0.06 -0.01 +0.00 +0.00
+step 20 total_reward -6.08
+observations: +0.23 +0.99 +0.58 -0.74 -0.05 -0.07 +0.00 +0.00
+step 40 total_reward -5.67
+observations: +0.34 +0.58 +0.57 -1.14 -0.10 -0.03 +0.00 +0.00
+step 60 total_reward -10.43
+observations: +0.46 -0.01 +0.46 -0.84 -0.11 +5.42 +1.00 +1.00
+step 79 total_reward -133.16
+step: 80
+episode 49 total_reward -133.16
+observations: -0.00 +1.40 -0.18 -0.27 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward -2.56
+observations: -0.04 +1.26 -0.25 -0.36 +0.28 +0.40 +0.00 +0.00
+step 20 total_reward -30.84
+observations: -0.09 +1.03 -0.30 -0.68 +0.59 +0.19 +0.00 +0.00
+step 40 total_reward -71.08
+observations: -0.18 +0.65 -0.50 -1.01 +0.67 +0.05 +0.00 +0.00
+step 60 total_reward -82.80
+observations: -0.30 +0.12 -0.69 -1.35 +0.72 -0.03 +0.00 +0.00
+step 80 total_reward -93.42
+observations: -0.36 -0.13 -1.08 -0.93 +0.50 -3.83 +1.00 +1.00
+step 88 total_reward -191.00
+step: 89
+episode 50 total_reward -191.00
+observations: +0.01 +1.42 +0.35 +0.13 -0.01 -0.06 +0.00 +0.00
+step 0 total_reward -3.09
+observations: +0.07 +1.40 +0.27 -0.19 -0.01 +0.03 +0.00 +0.00
+step 20 total_reward -0.03
+observations: +0.11 +1.26 +0.14 -0.43 +0.15 +0.38 +0.00 +0.00
+step 40 total_reward -14.80
+observations: +0.14 +0.95 +0.08 -0.87 +0.53 +0.43 +0.00 +0.00
+step 60 total_reward -65.44
+observations: +0.14 +0.47 -0.24 -1.27 +1.01 +0.55 +0.00 +0.00
+step 80 total_reward -111.14
+observations: +0.08 +0.01 -0.52 +0.13 +2.03 +1.61 +0.00 +1.00
+step 97 total_reward -234.14
+step: 98
+episode 51 total_reward -234.14
+observations: +0.01 +1.42 +0.29 +0.26 -0.00 -0.03 +0.00 +0.00
+step 0 total_reward +1.68
+observations: +0.07 +1.49 +0.31 -0.02 +0.01 +0.01 +0.00 +0.00
+step 20 total_reward -0.01
+observations: +0.13 +1.44 +0.24 -0.23 +0.09 +0.19 +0.00 +0.00
+step 40 total_reward -6.45
+observations: +0.17 +1.29 +0.15 -0.54 +0.40 +0.40 +0.00 +0.00
+step 60 total_reward -47.62
+observations: +0.18 +0.96 -0.06 -0.87 +0.85 +0.43 +0.00 +0.00
+step 80 total_reward -94.70
+observations: +0.10 +0.51 -0.68 -1.21 +1.36 +0.53 +0.00 +0.00
+step 100 total_reward -154.69
+observations: -0.05 -0.00 -1.02 -0.47 +1.86 -4.71 +0.00 +1.00
+step 116 total_reward -318.81
+step: 117
+episode 52 total_reward -318.81
+observations: +0.01 +1.40 +0.49 -0.16 -0.01 -0.08 +0.00 +0.00
+step 0 total_reward +0.16
+observations: +0.11 +1.24 +0.51 -0.56 -0.00 -0.06 +0.00 +0.00
+step 20 total_reward -7.70
+observations: +0.20 +0.87 +0.52 -1.03 +0.03 -0.02 +0.00 +0.00
+step 40 total_reward -16.74
+observations: +0.31 +0.31 +0.51 -1.39 -0.00 -0.01 +0.00 +0.00
+step 60 total_reward -2.38
+observations: +0.35 +0.02 +0.33 -0.80 +0.22 +5.99 +1.00 +1.00
+step 69 total_reward -94.42
+step: 70
+episode 53 total_reward -94.42
+observations: +0.00 +1.41 +0.05 -0.03 -0.00 -0.01 +0.00 +0.00
+step 0 total_reward -0.80
+observations: +0.01 +1.33 +0.03 -0.29 +0.04 +0.09 +0.00 +0.00
+step 20 total_reward -21.85
+observations: +0.01 +1.16 -0.00 -0.57 +0.16 +0.16 +0.00 +0.00
+step 40 total_reward -46.76
+observations: -0.00 +0.88 -0.15 -0.68 +0.31 +0.04 +0.00 +0.00
+step 60 total_reward -48.38
+observations: -0.05 +0.55 -0.31 -0.83 +0.26 -0.08 +0.00 +0.00
+step 80 total_reward -32.06
+observations: -0.12 +0.11 -0.33 -1.17 +0.12 -0.27 +0.00 +0.00
+step 100 total_reward -13.99
+observations: -0.14 -0.04 -0.18 +0.00 +0.00 +0.00 +1.00 +1.00
+step 106 total_reward -86.47
+step: 107
+episode 54 total_reward -86.47
+observations: +0.01 +1.43 +0.30 +0.34 -0.01 -0.07 +0.00 +0.00
+step 0 total_reward +0.87
+observations: +0.07 +1.50 +0.31 -0.04 -0.09 -0.16 +0.00 +0.00
+step 20 total_reward -2.93
+observations: +0.14 +1.48 +0.43 -0.13 -0.29 -0.25 +0.00 +0.00
+step 40 total_reward -38.50
+observations: +0.24 +1.37 +0.65 -0.31 -0.50 -0.26 +0.00 +0.00
+step 60 total_reward -78.59
+observations: +0.38 +1.15 +0.79 -0.62 -0.59 -0.03 +0.00 +0.00
+step 80 total_reward -99.73
+observations: +0.56 +0.80 +0.94 -0.99 -0.62 +0.00 +0.00 +0.00
+step 100 total_reward -117.13
+observations: +0.76 +0.27 +1.09 -1.29 -0.51 +0.17 +1.00 +0.00
+step 120 total_reward -113.15
+observations: +0.78 +0.21 +1.32 -0.98 -0.39 +2.99 +1.00 +0.00
+step 122 total_reward -212.65
+step: 123
+episode 55 total_reward -212.65
+observations: -0.00 +1.40 -0.09 -0.33 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward -1.82
+observations: -0.02 +1.21 -0.09 -0.55 -0.01 -0.03 +0.00 +0.00
+step 20 total_reward -7.60
+observations: -0.05 +0.85 -0.15 -1.00 +0.08 +0.17 +0.00 +0.00
+step 40 total_reward -25.55
+observations: -0.08 +0.35 -0.20 -1.21 +0.16 +0.08 +0.00 +0.00
+step 60 total_reward -8.78
+observations: -0.11 -0.04 -0.19 -0.82 +0.06 -5.06 +1.00 +1.00
+step 73 total_reward -93.44
+step: 74
+episode 56 total_reward -93.44
+observations: +0.00 +1.39 +0.10 -0.58 -0.00 -0.02 +0.00 +0.00
+step 0 total_reward -1.34
+observations: +0.02 +1.04 +0.10 -0.96 -0.04 -0.04 +0.00 +0.00
+step 20 total_reward -10.41
+observations: +0.05 +0.54 +0.17 -1.18 -0.07 -0.02 +0.00 +0.00
+step 40 total_reward +12.87
+observations: +0.09 -0.01 +0.24 -1.22 -0.26 +0.06 +1.00 +0.00
+step 60 total_reward +39.79
+observations: +0.10 -0.03 +0.17 -0.68 -0.17 +4.49 +1.00 +0.00
+step 61 total_reward -60.21
+step: 62
+episode 57 total_reward -60.21
+observations: +0.00 +1.43 +0.17 +0.46 -0.01 -0.08 +0.00 +0.00
+step 0 total_reward +0.62
+observations: +0.04 +1.61 +0.19 +0.47 -0.10 -0.11 +0.00 +0.00
+step 20 total_reward -30.46
+observations: +0.08 +1.73 +0.24 +0.11 -0.33 -0.20 +0.00 +0.00
+step 40 total_reward -43.77
+observations: +0.14 +1.68 +0.31 -0.34 -0.55 -0.19 +0.00 +0.00
+step 60 total_reward -81.11
+observations: +0.21 +1.44 +0.54 -0.65 -0.71 -0.20 +0.00 +0.00
+step 80 total_reward -114.17
+observations: +0.37 +1.10 +0.99 -0.92 -0.87 -0.27 +0.00 +0.00
+step 100 total_reward -154.21
+observations: +0.59 +0.58 +1.28 -1.30 -1.09 -0.08 +0.00 +0.00
+step 120 total_reward -191.84
+observations: +0.87 -0.10 +1.56 -1.66 -1.09 +0.35 +1.00 +0.00
+step 140 total_reward -233.80
+observations: +0.96 -0.29 +1.77 -1.61 -0.72 +2.53 +0.00 +1.00
+step 145 total_reward -316.63
+step: 146
+episode 58 total_reward -316.63
+observations: -0.01 +1.43 -0.63 +0.43 +0.02 +0.16 +0.00 +0.00
+step 0 total_reward -1.41
+observations: -0.14 +1.54 -0.71 +0.18 +0.21 +0.15 +0.00 +0.00
+step 20 total_reward -32.49
+observations: -0.29 +1.57 -0.76 -0.09 +0.23 -0.01 +0.00 +0.00
+step 40 total_reward -44.04
+observations: -0.45 +1.47 -0.92 -0.31 +0.24 +0.09 +0.00 +0.00
+step 60 total_reward -61.80
+observations: -0.65 +1.28 -0.97 -0.54 +0.26 -0.08 +0.00 +0.00
+step 80 total_reward -69.33
+observations: -0.86 +0.96 -1.11 -0.83 +0.19 +0.03 +0.00 +0.00
+step 100 total_reward -77.54
+observations: -1.01 +0.65 -1.08 -1.09 +0.17 -0.07 +0.00 +0.00
+step 114 total_reward -181.86
+step: 115
+episode 59 total_reward -181.86
+observations: +0.01 +1.39 +0.42 -0.58 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -0.34
+observations: +0.10 +1.07 +0.46 -0.86 -0.12 -0.14 +0.00 +0.00
+step 20 total_reward -8.23
+observations: +0.19 +0.57 +0.51 -1.24 -0.22 -0.04 +0.00 +0.00
+step 40 total_reward -10.02
+observations: +0.30 -0.05 +0.59 -1.49 -0.21 +0.07 +0.00 +1.00
+step 60 total_reward +2.77
+observations: +0.31 -0.10 +1.04 -0.24 -0.33 +0.00 +1.00 +1.00
+step 62 total_reward -95.73
+step: 63
+episode 60 total_reward -95.73
+observations: -0.01 +1.42 -0.67 +0.29 +0.02 +0.15 +0.00 +0.00
+step 0 total_reward -0.28
+observations: -0.15 +1.56 -0.77 +0.30 +0.25 +0.28 +0.00 +0.00
+step 20 total_reward -50.53
+observations: -0.31 +1.62 -0.94 +0.09 +0.48 +0.27 +0.00 +0.00
+step 40 total_reward -95.63
+observations: -0.53 +1.60 -1.18 -0.24 +0.89 +0.55 +0.00 +0.00
+step 60 total_reward -169.46
+observations: -0.80 +1.41 -1.59 -0.65 +1.38 +0.41 +0.00 +0.00
+step 80 total_reward -263.85
+observations: -1.01 +1.19 -1.83 -0.94 +1.57 +0.17 +0.00 +0.00
+step 92 total_reward -411.16
+step: 93
+episode 61 total_reward -411.16
+observations: -0.01 +1.43 -0.26 +0.36 +0.01 +0.10 +0.00 +0.00
+step 0 total_reward +0.11
+observations: -0.06 +1.57 -0.26 +0.22 +0.04 -0.00 +0.00 +0.00
+step 20 total_reward -10.05
+observations: -0.12 +1.60 -0.31 -0.01 +0.01 +0.05 +0.00 +0.00
+step 40 total_reward -8.62
+observations: -0.18 +1.53 -0.36 -0.32 +0.22 +0.24 +0.00 +0.00
+step 60 total_reward -43.40
+observations: -0.27 +1.33 -0.53 -0.59 +0.42 +0.20 +0.00 +0.00
+step 80 total_reward -78.06
+observations: -0.38 +0.99 -0.63 -0.98 +0.58 +0.22 +0.00 +0.00
+step 100 total_reward -101.82
+observations: -0.53 +0.48 -0.81 -1.33 +0.74 +0.14 +0.00 +0.00
+step 120 total_reward -123.77
+observations: -0.73 -0.19 -1.15 -1.65 +0.91 +0.20 +0.00 +1.00
+step 140 total_reward -182.33
+observations: -0.74 -0.20 -1.02 -0.01 +0.98 +1.94 +0.00 +1.00
+step 141 total_reward -282.33
+step: 142
+episode 62 total_reward -282.33
+observations: -0.00 +1.39 -0.23 -0.57 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward -0.92
+observations: -0.05 +1.07 -0.19 -0.87 -0.07 -0.25 +0.00 +0.00
+step 20 total_reward -5.52
+observations: -0.09 +0.58 -0.11 -1.22 -0.33 -0.30 +0.00 +0.00
+step 40 total_reward -18.34
+observations: -0.09 -0.01 -0.14 -0.25 -0.55 +3.39 +1.00 +0.00
+step 60 total_reward -100.73
+step: 61
+episode 63 total_reward -100.73
+observations: -0.01 +1.43 -0.74 +0.32 +0.02 +0.21 +0.00 +0.00
+step 0 total_reward -1.65
+observations: -0.16 +1.53 -0.74 +0.06 +0.13 +0.05 +0.00 +0.00
+step 20 total_reward -19.91
+observations: -0.31 +1.45 -0.69 -0.40 +0.16 -0.05 +0.00 +0.00
+step 40 total_reward -23.45
+observations: -0.46 +1.19 -0.75 -0.78 +0.24 -0.05 +0.00 +0.00
+step 60 total_reward -39.71
+observations: -0.62 +0.77 -0.82 -1.12 +0.19 -0.05 +0.00 +0.00
+step 80 total_reward -39.39
+observations: -0.80 +0.20 -0.98 -1.31 +0.21 +0.10 +0.00 +0.00
+step 100 total_reward -51.12
+observations: -0.84 +0.10 -1.20 -0.44 +0.42 +3.78 +1.00 +1.00
+step 104 total_reward -142.42
+step: 105
+episode 64 total_reward -142.42
+observations: -0.01 +1.40 -0.34 -0.24 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -2.41
+observations: -0.07 +1.27 -0.39 -0.43 +0.21 +0.37 +0.00 +0.00
+step 20 total_reward -28.03
+observations: -0.17 +1.01 -0.56 -0.77 +0.66 +0.55 +0.00 +0.00
+step 40 total_reward -87.45
+observations: -0.29 +0.58 -0.78 -1.19 +1.21 +0.64 +0.00 +0.00
+step 60 total_reward -153.09
+observations: -0.45 +0.01 -0.67 -0.44 +1.81 -4.66 +0.00 +1.00
+step 78 total_reward -342.73
+step: 79
+episode 65 total_reward -342.73
+observations: -0.00 +1.40 -0.19 -0.21 +0.01 +0.06 +0.00 +0.00
+step 0 total_reward +2.81
+observations: -0.04 +1.24 -0.19 -0.57 +0.04 +0.15 +0.00 +0.00
+step 20 total_reward -18.25
+observations: -0.07 +0.90 -0.20 -0.88 +0.19 +0.16 +0.00 +0.00
+step 40 total_reward -31.67
+observations: -0.11 +0.39 -0.18 -1.38 +0.32 +0.10 +0.00 +0.00
+step 60 total_reward -44.44
+observations: -0.13 -0.03 -0.06 -0.85 +0.08 -5.63 +1.00 +1.00
+step 73 total_reward -113.57
+step: 74
+episode 66 total_reward -113.57
+observations: -0.00 +1.39 -0.24 -0.51 +0.00 +0.01 +0.00 +0.00
+step 0 total_reward -0.77
+observations: -0.05 +1.08 -0.22 -0.83 +0.00 -0.04 +0.00 +0.00
+step 20 total_reward -1.05
+observations: -0.09 +0.61 -0.16 -1.27 -0.14 -0.20 +0.00 +0.00
+step 40 total_reward -11.21
+observations: -0.12 -0.03 -0.28 -0.79 -0.09 +5.55 +1.00 +0.00
+step 60 total_reward -98.10
+step: 61
+episode 67 total_reward -98.10
+observations: +0.02 +1.43 +0.79 +0.30 -0.02 -0.18 +0.00 +0.00
+step 0 total_reward -0.52
+observations: +0.17 +1.47 +0.74 -0.07 -0.13 +0.02 +0.00 +0.00
+step 20 total_reward -8.12
+observations: +0.32 +1.36 +0.79 -0.39 -0.05 +0.14 +0.00 +0.00
+step 40 total_reward -7.92
+observations: +0.49 +1.13 +0.88 -0.58 -0.03 -0.09 +0.00 +0.00
+step 60 total_reward -8.05
+observations: +0.66 +0.78 +0.88 -0.93 -0.10 -0.02 +0.00 +0.00
+step 80 total_reward -18.47
+observations: +0.84 +0.31 +0.88 -1.21 -0.04 +0.02 +0.00 +0.00
+step 100 total_reward -23.40
+observations: +0.95 -0.06 +1.10 -0.92 -0.24 -4.44 +0.00 +1.00
+step 113 total_reward -130.60
+step: 114
+episode 68 total_reward -130.60
+observations: +0.00 +1.42 +0.01 +0.17 -0.00 -0.04 +0.00 +0.00
+step 0 total_reward +1.91
+observations: +0.01 +1.42 +0.07 -0.10 -0.14 -0.17 +0.00 +0.00
+step 20 total_reward -8.83
+observations: +0.03 +1.33 +0.19 -0.33 -0.30 -0.14 +0.00 +0.00
+step 40 total_reward -44.54
+observations: +0.08 +1.08 +0.29 -0.77 -0.45 -0.11 +0.00 +0.00
+step 60 total_reward -80.16
+observations: +0.14 +0.62 +0.34 -1.24 -0.58 -0.18 +0.00 +0.00
+step 80 total_reward -95.23
+observations: +0.22 +0.01 +0.17 -0.82 -1.11 -6.06 +1.00 +0.00
+step 99 total_reward -210.30
+step: 100
+episode 69 total_reward -210.30
+observations: +0.01 +1.40 +0.39 -0.23 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -0.11
+observations: +0.09 +1.23 +0.39 -0.51 +0.05 +0.18 +0.00 +0.00
+step 20 total_reward -8.79
+observations: +0.17 +0.93 +0.39 -0.84 +0.20 +0.10 +0.00 +0.00
+step 40 total_reward -25.43
+observations: +0.23 +0.53 +0.30 -0.99 +0.19 -0.04 +0.00 +0.00
+step 60 total_reward -1.98
+observations: +0.29 -0.00 +0.29 -1.36 +0.09 -0.15 +0.00 +1.00
+step 80 total_reward +10.49
+observations: +0.30 -0.06 +0.57 -0.83 -0.05 -4.82 +1.00 +1.00
+step 82 total_reward -86.06
+step: 83
+episode 70 total_reward -86.06
+observations: +0.00 +1.41 +0.01 +0.02 +0.00 +0.04 +0.00 +0.00
+step 0 total_reward +2.61
+observations: +0.00 +1.33 -0.00 -0.22 +0.05 +0.10 +0.00 +0.00
+step 20 total_reward -16.56
+observations: -0.00 +1.14 -0.06 -0.63 +0.30 +0.22 +0.00 +0.00
+step 40 total_reward -63.89
+observations: -0.03 +0.78 -0.19 -0.96 +0.51 +0.26 +0.00 +0.00
+step 60 total_reward -85.89
+observations: -0.08 +0.27 -0.45 -1.26 +0.69 +0.05 +0.00 +0.00
+step 80 total_reward -93.23
+observations: -0.14 -0.00 -0.39 -0.15 +0.62 -2.57 +0.00 +1.00
+step 90 total_reward -168.29
+step: 91
+episode 71 total_reward -168.29
+observations: -0.01 +1.41 -0.32 -0.11 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward +1.16
+observations: -0.07 +1.28 -0.40 -0.39 +0.13 +0.17 +0.00 +0.00
+step 20 total_reward -21.35
+observations: -0.16 +1.00 -0.48 -0.79 +0.31 +0.18 +0.00 +0.00
+step 40 total_reward -52.03
+observations: -0.29 +0.61 -0.76 -1.00 +0.60 +0.45 +0.00 +0.00
+step 60 total_reward -82.49
+observations: -0.47 +0.08 -1.08 -1.33 +1.08 +0.44 +0.00 +0.00
+step 80 total_reward -158.90
+observations: -0.52 -0.04 -0.22 +0.13 +1.63 +0.87 +0.00 +1.00
+step 85 total_reward -266.14
+step: 86
+episode 72 total_reward -266.14
+observations: +0.01 +1.41 +0.59 +0.00 -0.01 -0.16 +0.00 +0.00
+step 0 total_reward -1.52
+observations: +0.13 +1.31 +0.62 -0.44 -0.23 -0.22 +0.00 +0.00
+step 20 total_reward -32.09
+observations: +0.26 +1.08 +0.72 -0.56 -0.30 -0.10 +0.00 +0.00
+step 40 total_reward -36.19
+observations: +0.41 +0.77 +0.81 -0.87 -0.45 -0.05 +0.00 +0.00
+step 60 total_reward -56.84
+observations: +0.60 +0.31 +0.99 -1.23 -0.53 -0.25 +0.00 +0.00
+step 80 total_reward -86.29
+observations: +0.79 -0.04 +0.83 +0.02 -1.58 -2.63 +0.00 +0.00
+step 100 total_reward -130.15
+observations: +0.86 -0.04 +1.00 -0.08 -2.55 -3.48 +0.00 +0.00
+step 107 total_reward -347.27
+step: 108
+episode 73 total_reward -347.27
+observations: -0.01 +1.41 -0.31 -0.01 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward +0.98
+observations: -0.06 +1.33 -0.23 -0.38 -0.03 -0.17 +0.00 +0.00
+step 20 total_reward -8.02
+observations: -0.11 +1.06 -0.28 -0.82 -0.07 +0.10 +0.00 +0.00
+step 40 total_reward -28.51
+observations: -0.17 +0.63 -0.33 -1.00 +0.09 +0.11 +0.00 +0.00
+step 60 total_reward -10.63
+observations: -0.23 +0.09 -0.34 -1.42 +0.17 +0.02 +0.00 +1.00
+step 80 total_reward -11.03
+observations: -0.24 +0.03 +0.47 -0.55 +0.11 -4.20 +0.00 +1.00
+step 82 total_reward -101.82
+step: 83
+episode 74 total_reward -101.82
+observations: +0.01 +1.39 +0.30 -0.57 -0.00 -0.03 +0.00 +0.00
+step 0 total_reward -0.64
+observations: +0.06 +1.08 +0.30 -0.80 +0.06 +0.13 +0.00 +0.00
+step 20 total_reward +0.41
+observations: +0.12 +0.65 +0.22 -1.06 +0.17 +0.06 +0.00 +0.00
+step 40 total_reward +7.16
+observations: +0.17 +0.08 +0.22 -1.48 +0.20 +0.09 +0.00 +0.00
+step 60 total_reward +9.34
+observations: +0.18 -0.04 +0.32 +0.10 -0.02 -1.42 +1.00 +1.00
+step 64 total_reward -77.72
+step: 65
+episode 75 total_reward -77.72
+observations: +0.01 +1.41 +0.30 +0.07 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -2.14
+observations: +0.07 +1.32 +0.32 -0.46 -0.07 -0.11 +0.00 +0.00
+step 20 total_reward -24.22
+observations: +0.12 +1.08 +0.29 -0.67 -0.17 -0.06 +0.00 +0.00
+step 40 total_reward -30.08
+observations: +0.19 +0.71 +0.37 -0.94 -0.15 -0.00 +0.00 +0.00
+step 60 total_reward -22.97
+observations: +0.26 +0.22 +0.38 -1.23 -0.04 +0.15 +0.00 +0.00
+step 80 total_reward -2.79
+observations: +0.29 +0.06 -0.21 -0.64 +0.10 +4.19 +1.00 +0.00
+step 86 total_reward -82.27
+step: 87
+episode 76 total_reward -82.27
+observations: +0.00 +1.41 +0.24 +0.05 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward +0.31
+observations: +0.05 +1.36 +0.28 -0.28 -0.03 -0.08 +0.00 +0.00
+step 20 total_reward -12.26
+observations: +0.11 +1.19 +0.28 -0.50 +0.01 +0.07 +0.00 +0.00
+step 40 total_reward -13.55
+observations: +0.17 +0.91 +0.30 -0.64 -0.01 -0.12 +0.00 +0.00
+step 60 total_reward -4.32
+observations: +0.23 +0.61 +0.33 -0.72 -0.05 +0.06 +0.00 +0.00
+step 80 total_reward +8.09
+observations: +0.29 +0.20 +0.27 -1.10 +0.12 +0.18 +0.00 +0.00
+step 100 total_reward -4.59
+observations: +0.33 -0.08 +0.77 -0.58 +0.08 -3.47 +0.00 +1.00
+step 111 total_reward -99.11
+step: 112
+episode 77 total_reward -99.11
+observations: +0.01 +1.41 +0.47 -0.06 -0.01 -0.15 +0.00 +0.00
+step 0 total_reward -1.86
+observations: +0.11 +1.28 +0.55 -0.41 -0.27 -0.24 +0.00 +0.00
+step 20 total_reward -38.35
+observations: +0.22 +0.97 +0.62 -0.91 -0.63 -0.36 +0.00 +0.00
+step 40 total_reward -87.83
+observations: +0.37 +0.50 +0.94 -1.22 -0.95 -0.42 +0.00 +0.00
+step 60 total_reward -128.63
+observations: +0.56 -0.03 +0.72 +0.29 -1.90 -2.53 +1.00 +0.00
+step 78 total_reward -289.02
+step: 79
+episode 78 total_reward -289.02
+observations: -0.01 +1.43 -0.52 +0.38 +0.01 +0.08 +0.00 +0.00
+step 0 total_reward +1.13
+observations: -0.11 +1.54 -0.51 +0.17 +0.08 +0.06 +0.00 +0.00
+step 20 total_reward -9.24
+observations: -0.23 +1.57 -0.60 -0.11 +0.21 +0.19 +0.00 +0.00
+step 40 total_reward -34.80
+observations: -0.36 +1.44 -0.78 -0.51 +0.62 +0.58 +0.00 +0.00
+step 60 total_reward -99.09
+observations: -0.54 +1.11 -1.08 -0.95 +1.24 +0.76 +0.00 +0.00
+step 80 total_reward -188.88
+observations: -0.80 +0.58 -1.46 -1.47 +1.91 +0.63 +0.00 +0.00
+step 100 total_reward -297.14
+observations: -1.02 +0.09 -1.74 -1.90 +2.29 +0.59 +0.00 +0.00
+step 113 total_reward -483.72
+step: 114
+episode 79 total_reward -483.72
+observations: +0.02 +1.42 +0.81 +0.16 -0.02 -0.17 +0.00 +0.00
+step 0 total_reward -2.38
+observations: +0.17 +1.44 +0.77 -0.07 -0.13 -0.06 +0.00 +0.00
+step 20 total_reward -14.63
+observations: +0.35 +1.39 +0.99 -0.22 -0.29 -0.32 +0.00 +0.00
+step 40 total_reward -54.50
+observations: +0.56 +1.21 +1.17 -0.55 -0.55 -0.25 +0.00 +0.00
+step 60 total_reward -100.64
+observations: +0.81 +0.89 +1.34 -0.91 -0.78 -0.15 +0.00 +0.00
+step 80 total_reward -144.63
+observations: +1.01 +0.55 +1.49 -1.20 -0.91 -0.20 +0.00 +0.00
+step 94 total_reward -280.84
+step: 95
+episode 80 total_reward -280.84
+observations: +0.01 +1.41 +0.30 -0.01 -0.01 -0.05 +0.00 +0.00
+step 0 total_reward -1.54
+observations: +0.07 +1.34 +0.37 -0.31 -0.16 -0.29 +0.00 +0.00
+step 20 total_reward -31.15
+observations: +0.15 +1.11 +0.49 -0.69 -0.47 -0.31 +0.00 +0.00
+step 40 total_reward -77.06
+observations: +0.27 +0.72 +0.81 -1.01 -0.86 -0.47 +0.00 +0.00
+step 60 total_reward -127.92
+observations: +0.44 +0.15 +1.00 -1.52 -1.44 -0.66 +0.00 +0.00
+step 80 total_reward -209.24
+observations: +0.51 -0.04 +0.57 +0.09 -1.78 -0.35 +1.00 +0.00
+step 86 total_reward -332.45
+step: 87
+episode 81 total_reward -332.45
+observations: -0.01 +1.43 -0.39 +0.37 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -0.27
+observations: -0.09 +1.55 -0.41 +0.10 +0.20 +0.21 +0.00 +0.00
+step 20 total_reward -21.58
+observations: -0.18 +1.49 -0.56 -0.33 +0.61 +0.52 +0.00 +0.00
+step 40 total_reward -81.46
+observations: -0.34 +1.31 -0.89 -0.62 +1.25 +0.67 +0.00 +0.00
+step 60 total_reward -177.27
+observations: -0.56 +0.92 -1.29 -1.16 +2.01 +0.86 +0.00 +0.00
+step 80 total_reward -292.28
+observations: -0.85 +0.26 -1.47 -1.82 +2.85 +0.81 +0.00 +0.00
+step 100 total_reward -419.51
+observations: -0.87 +0.19 -0.45 -0.74 +2.83 -6.58 +0.00 +0.00
+step 102 total_reward -525.80
+step: 103
+episode 82 total_reward -525.80
+observations: -0.01 +1.40 -0.69 -0.21 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward +0.15
+observations: -0.15 +1.23 -0.71 -0.58 +0.18 +0.25 +0.00 +0.00
+step 20 total_reward -20.63
+observations: -0.29 +0.87 -0.81 -0.95 +0.48 +0.48 +0.00 +0.00
+step 40 total_reward -54.08
+observations: -0.50 +0.41 -1.22 -1.18 +1.02 +0.57 +0.00 +0.00
+step 60 total_reward -128.14
+observations: -0.72 -0.09 -0.41 -0.15 +1.41 -3.05 +0.00 +1.00
+step 77 total_reward -321.48
+step: 78
+episode 83 total_reward -321.48
+observations: +0.00 +1.43 +0.07 +0.33 -0.00 -0.05 +0.00 +0.00
+step 0 total_reward +1.40
+observations: +0.01 +1.51 +0.08 +0.02 -0.01 -0.07 +0.00 +0.00
+step 20 total_reward +16.79
+observations: +0.03 +1.47 +0.14 -0.26 -0.18 -0.24 +0.00 +0.00
+step 40 total_reward -19.88
+observations: +0.06 +1.24 +0.19 -0.70 -0.42 -0.31 +0.00 +0.00
+step 60 total_reward -65.79
+observations: +0.10 +0.82 +0.33 -1.15 -0.73 -0.45 +0.00 +0.00
+step 80 total_reward -102.68
+observations: +0.19 +0.20 +0.59 -1.59 -1.17 -0.46 +0.00 +0.00
+step 100 total_reward -142.93
+observations: +0.23 -0.00 +0.71 +0.36 -1.77 -2.70 +1.00 +0.00
+step 107 total_reward -232.49
+step: 108
+episode 84 total_reward -232.49
+observations: +0.01 +1.40 +0.29 -0.23 -0.01 -0.10 +0.00 +0.00
+step 0 total_reward -2.34
+observations: +0.06 +1.26 +0.26 -0.52 -0.09 -0.09 +0.00 +0.00
+step 20 total_reward -19.12
+observations: +0.11 +0.93 +0.29 -0.93 -0.09 -0.03 +0.00 +0.00
+step 40 total_reward -27.79
+observations: +0.17 +0.40 +0.32 -1.38 -0.13 -0.06 +0.00 +0.00
+step 60 total_reward -26.52
+observations: +0.22 -0.04 +0.24 -0.87 -0.06 +5.40 +1.00 +1.00
+step 73 total_reward -121.28
+step: 74
+episode 85 total_reward -121.28
+observations: -0.01 +1.39 -0.47 -0.54 +0.01 +0.06 +0.00 +0.00
+step 0 total_reward -0.15
+observations: -0.10 +1.08 -0.47 -0.85 +0.00 +0.03 +0.00 +0.00
+step 20 total_reward +3.28
+observations: -0.20 +0.66 -0.50 -1.09 +0.14 +0.13 +0.00 +0.00
+step 40 total_reward +3.24
+observations: -0.31 +0.09 -0.59 -1.44 +0.31 +0.21 +0.00 +0.00
+step 60 total_reward -13.03
+observations: -0.34 -0.08 -0.57 -0.86 +0.27 -4.64 +1.00 +1.00
+step 65 total_reward -118.54
+step: 66
+episode 86 total_reward -118.54
+observations: -0.01 +1.40 -0.76 -0.16 +0.02 +0.17 +0.00 +0.00
+step 0 total_reward -0.88
+observations: -0.17 +1.29 -0.83 -0.37 +0.13 +0.13 +0.00 +0.00
+step 20 total_reward -17.91
+observations: -0.34 +1.06 -0.86 -0.71 +0.28 +0.10 +0.00 +0.00
+step 40 total_reward -36.70
+observations: -0.52 +0.63 -0.92 -1.14 +0.40 +0.10 +0.00 +0.00
+step 60 total_reward -55.04
+observations: -0.71 +0.02 -1.03 -1.49 +0.48 +0.11 +0.00 +1.00
+step 80 total_reward -78.40
+observations: -0.73 -0.03 -0.83 -0.49 +0.36 -4.76 +0.00 +0.00
+step 82 total_reward -170.15
+step: 83
+episode 87 total_reward -170.15
+observations: +0.00 +1.41 +0.05 -0.00 -0.00 -0.01 +0.00 +0.00
+step 0 total_reward +0.59
+observations: +0.01 +1.35 -0.00 -0.25 +0.02 +0.07 +0.00 +0.00
+step 20 total_reward -17.55
+observations: +0.01 +1.14 +0.01 -0.63 +0.05 +0.03 +0.00 +0.00
+step 40 total_reward -39.80
+observations: +0.02 +0.77 +0.03 -1.00 +0.00 -0.07 +0.00 +0.00
+step 60 total_reward -35.49
+observations: +0.02 +0.21 +0.05 -1.43 -0.11 -0.24 +0.00 +0.00
+step 80 total_reward -34.32
+observations: +0.03 -0.04 +0.00 -0.00 +0.00 -0.00 +1.00 +1.00
+step 88 total_reward -114.31
+step: 89
+episode 88 total_reward -114.31
+observations: +0.01 +1.39 +0.59 -0.52 -0.01 -0.13 +0.00 +0.00
+step 0 total_reward -1.10
+observations: +0.13 +1.09 +0.61 -0.85 -0.11 -0.12 +0.00 +0.00
+step 20 total_reward -8.07
+observations: +0.26 +0.68 +0.72 -1.03 -0.19 -0.06 +0.00 +0.00
+step 40 total_reward -2.75
+observations: +0.40 +0.09 +0.67 -1.53 -0.17 +0.18 +0.00 +0.00
+step 60 total_reward -10.70
+observations: +0.44 -0.15 +0.56 -0.90 -0.08 +5.41 +1.00 +1.00
+step 67 total_reward -97.02
+step: 68
+episode 89 total_reward -97.02
+observations: -0.01 +1.42 -0.49 +0.20 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +0.07
+observations: -0.11 +1.43 -0.53 -0.13 +0.21 +0.16 +0.00 +0.00
+step 20 total_reward -23.94
+observations: -0.23 +1.33 -0.62 -0.39 +0.39 +0.17 +0.00 +0.00
+step 40 total_reward -53.47
+observations: -0.37 +1.09 -0.83 -0.69 +0.69 +0.37 +0.00 +0.00
+step 60 total_reward -101.27
+observations: -0.57 +0.71 -1.10 -1.02 +0.95 +0.18 +0.00 +0.00
+step 80 total_reward -146.78
+observations: -0.81 +0.15 -1.42 -1.41 +1.10 +0.22 +0.00 +1.00
+step 100 total_reward -195.25
+observations: -0.82 +0.13 -1.36 -0.71 +1.39 +6.56 +0.00 +1.00
+step 101 total_reward -295.25
+step: 102
+episode 90 total_reward -295.25
+observations: +0.00 +1.43 +0.01 +0.45 -0.00 -0.00 +0.00 +0.00
+step 0 total_reward -2.96
+observations: +0.00 +1.59 -0.01 +0.24 +0.01 +0.01 +0.00 +0.00
+step 20 total_reward -0.58
+observations: -0.00 +1.63 -0.03 -0.06 -0.00 -0.04 +0.00 +0.00
+step 40 total_reward +11.13
+observations: -0.01 +1.51 -0.04 -0.46 +0.08 +0.15 +0.00 +0.00
+step 60 total_reward -25.95
+observations: -0.01 +1.21 -0.05 -0.84 +0.23 +0.12 +0.00 +0.00
+step 80 total_reward -50.44
+observations: -0.04 +0.72 -0.25 -1.21 +0.56 +0.41 +0.00 +0.00
+step 100 total_reward -75.95
+observations: -0.10 +0.08 -0.42 -1.65 +0.99 +0.52 +0.00 +0.00
+step 120 total_reward -107.85
+observations: -0.12 +0.01 -0.64 -0.06 +1.18 +1.80 +0.00 +1.00
+step 123 total_reward -207.64
+step: 124
+episode 91 total_reward -207.64
+observations: +0.01 +1.42 +0.70 +0.24 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward +0.82
+observations: +0.16 +1.42 +0.74 -0.24 -0.20 -0.27 +0.00 +0.00
+step 20 total_reward -21.95
+observations: +0.31 +1.23 +0.81 -0.58 -0.49 -0.22 +0.00 +0.00
+step 40 total_reward -58.95
+observations: +0.48 +0.86 +1.01 -0.96 -0.73 -0.27 +0.00 +0.00
+step 60 total_reward -95.77
+observations: +0.70 +0.32 +1.30 -1.39 -1.10 -0.42 +0.00 +0.00
+step 80 total_reward -164.24
+observations: +0.97 -0.27 +1.46 +0.14 -1.96 -1.54 +1.00 +0.00
+step 99 total_reward -350.02
+step: 100
+episode 92 total_reward -350.02
+observations: -0.01 +1.39 -0.26 -0.40 +0.01 +0.06 +0.00 +0.00
+step 0 total_reward -1.50
+observations: -0.07 +1.19 -0.36 -0.51 +0.09 +0.14 +0.00 +0.00
+step 20 total_reward -6.27
+observations: -0.14 +0.89 -0.43 -0.81 +0.23 +0.18 +0.00 +0.00
+step 40 total_reward -22.70
+observations: -0.24 +0.46 -0.56 -1.07 +0.32 +0.12 +0.00 +0.00
+step 60 total_reward -24.86
+observations: -0.34 +0.04 +0.09 -0.03 +0.52 -0.36 +0.00 +1.00
+step 79 total_reward -44.00
+step: 80
+episode 93 total_reward -44.00
+observations: +0.01 +1.41 +0.37 -0.05 -0.01 -0.08 +0.00 +0.00
+step 0 total_reward -0.49
+observations: +0.08 +1.28 +0.37 -0.37 -0.00 -0.02 +0.00 +0.00
+step 20 total_reward -3.96
+observations: +0.15 +1.04 +0.41 -0.69 -0.03 -0.05 +0.00 +0.00
+step 40 total_reward -13.55
+observations: +0.24 +0.67 +0.46 -0.97 -0.01 +0.03 +0.00 +0.00
+step 60 total_reward -6.11
+observations: +0.33 +0.19 +0.47 -1.21 +0.01 -0.04 +0.00 +0.00
+step 80 total_reward +1.91
+observations: +0.36 +0.06 +0.39 -0.72 +0.24 +4.33 +0.00 +1.00
+step 85 total_reward -90.74
+step: 86
+episode 94 total_reward -90.74
+observations: +0.01 +1.42 +0.43 +0.31 -0.01 -0.11 +0.00 +0.00
+step 0 total_reward -2.30
+observations: +0.09 +1.47 +0.47 +0.03 -0.04 -0.01 +0.00 +0.00
+step 20 total_reward -6.54
+observations: +0.18 +1.39 +0.40 -0.28 +0.05 +0.11 +0.00 +0.00
+step 40 total_reward -4.08
+observations: +0.26 +1.18 +0.31 -0.68 +0.27 +0.30 +0.00 +0.00
+step 60 total_reward -32.86
+observations: +0.31 +0.80 +0.22 -0.99 +0.51 +0.14 +0.00 +0.00
+step 80 total_reward -51.26
+observations: +0.34 +0.27 +0.10 -1.39 +0.61 +0.10 +0.00 +0.00
+step 100 total_reward -58.98
+observations: +0.35 +0.02 -0.18 -0.60 +0.45 -4.74 +0.00 +1.00
+step 108 total_reward -143.02
+step: 109
+episode 95 total_reward -143.02
+observations: +0.01 +1.41 +0.59 +0.02 -0.02 -0.17 +0.00 +0.00
+step 0 total_reward -1.85
+observations: +0.12 +1.35 +0.55 -0.20 -0.14 -0.12 +0.00 +0.00
+step 20 total_reward -10.93
+observations: +0.24 +1.22 +0.60 -0.47 -0.26 -0.03 +0.00 +0.00
+step 40 total_reward -31.60
+observations: +0.37 +0.92 +0.66 -0.87 -0.36 -0.02 +0.00 +0.00
+step 60 total_reward -50.93
+observations: +0.51 +0.45 +0.76 -1.19 -0.30 +0.01 +0.00 +0.00
+step 80 total_reward -47.05
+observations: +0.65 -0.05 +1.01 -0.13 -0.20 -0.00 +1.00 +1.00
+step 97 total_reward -142.63
+step: 98
+episode 96 total_reward -142.63
+observations: +0.01 +1.41 +0.61 -0.11 -0.01 -0.10 +0.00 +0.00
+step 0 total_reward +0.30
+observations: +0.14 +1.34 +0.66 -0.28 -0.12 -0.13 +0.00 +0.00
+step 20 total_reward -16.70
+observations: +0.28 +1.15 +0.81 -0.53 -0.27 -0.13 +0.00 +0.00
+step 40 total_reward -42.63
+observations: +0.45 +0.85 +0.94 -0.80 -0.35 -0.08 +0.00 +0.00
+step 60 total_reward -56.70
+observations: +0.66 +0.44 +0.99 -1.09 -0.31 +0.19 +0.00 +0.00
+step 80 total_reward -60.66
+observations: +0.82 +0.08 +1.01 -0.11 -0.09 +1.40 +1.00 +1.00
+step 95 total_reward -132.11
+step: 96
+episode 97 total_reward -132.11
+observations: +0.01 +1.43 +0.47 +0.37 -0.01 -0.08 +0.00 +0.00
+step 0 total_reward -4.99
+observations: +0.10 +1.52 +0.44 +0.12 -0.00 +0.07 +0.00 +0.00
+step 20 total_reward -2.14
+observations: +0.19 +1.54 +0.47 -0.14 -0.03 -0.10 +0.00 +0.00
+step 40 total_reward -12.63
+observations: +0.28 +1.39 +0.46 -0.46 -0.03 +0.04 +0.00 +0.00
+step 60 total_reward -17.23
+observations: +0.39 +1.12 +0.54 -0.78 -0.01 +0.09 +0.00 +0.00
+step 80 total_reward -23.19
+observations: +0.49 +0.69 +0.45 -1.09 +0.11 +0.16 +0.00 +0.00
+step 100 total_reward -24.57
+observations: +0.57 +0.14 +0.38 -1.44 +0.32 +0.25 +0.00 +0.00
+step 120 total_reward -52.42
+observations: +0.60 -0.10 +0.55 -0.58 +0.31 -4.86 +0.00 +1.00
+step 127 total_reward -164.15
+step: 128
+episode 98 total_reward -164.15
+observations: -0.01 +1.39 -0.54 -0.52 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -1.14
+observations: -0.12 +1.09 -0.59 -0.79 +0.11 +0.09 +0.00 +0.00
+step 20 total_reward -6.84
+observations: -0.25 +0.72 -0.68 -0.92 +0.16 +0.12 +0.00 +0.00
+step 40 total_reward +2.42
+observations: -0.39 +0.26 -0.74 -1.13 +0.24 +0.10 +0.00 +0.00
+step 60 total_reward +1.78
+observations: -0.45 +0.03 -0.38 -0.52 +0.02 -4.76 +0.00 +1.00
+step 69 total_reward -89.69
+step: 70
+episode 99 total_reward -89.69
+observations: +0.02 +1.39 +0.78 -0.48 -0.02 -0.13 +0.00 +0.00
+step 0 total_reward +0.20
+observations: +0.17 +1.11 +0.79 -0.70 -0.06 -0.03 +0.00 +0.00
+step 20 total_reward +6.71
+observations: +0.33 +0.73 +0.83 -0.98 -0.12 -0.04 +0.00 +0.00
+step 40 total_reward +7.17
+observations: +0.50 +0.22 +0.83 -1.32 -0.07 +0.12 +0.00 +0.00
+step 60 total_reward +8.92
+observations: +0.53 +0.12 -0.05 -0.53 +0.19 +4.77 +0.00 +0.00
+step 64 total_reward -75.15
+step: 65
+episode 100 total_reward -75.15
+observations: -0.01 +1.42 -0.51 +0.25 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +0.11
+observations: -0.12 +1.47 -0.53 -0.04 +0.18 +0.04 +0.00 +0.00
+step 20 total_reward -21.58
+observations: -0.23 +1.39 -0.64 -0.25 +0.26 +0.06 +0.00 +0.00
+step 40 total_reward -40.20
+observations: -0.38 +1.24 -0.85 -0.41 +0.41 +0.11 +0.00 +0.00
+step 60 total_reward -71.64
+observations: -0.58 +0.99 -1.11 -0.73 +0.59 +0.26 +0.00 +0.00
+step 80 total_reward -114.74
+observations: -0.83 +0.61 -1.35 -1.04 +0.85 +0.29 +0.00 +0.00
+step 100 total_reward -168.37
+observations: -1.00 +0.25 -1.35 -1.39 +1.03 +0.33 +0.00 +0.00
+step 113 total_reward -307.50
+step: 114
+episode 101 total_reward -307.50
+observations: +0.01 +1.41 +0.52 -0.10 -0.01 -0.15 +0.00 +0.00
+step 0 total_reward -1.77
+observations: +0.11 +1.31 +0.50 -0.43 -0.08 -0.01 +0.00 +0.00
+step 20 total_reward -12.79
+observations: +0.21 +1.01 +0.46 -0.77 -0.06 -0.04 +0.00 +0.00
+step 40 total_reward -8.49
+observations: +0.30 +0.55 +0.46 -1.25 -0.07 -0.01 +0.00 +0.00
+step 60 total_reward -12.91
+observations: +0.39 -0.09 -0.11 -0.65 +0.01 +4.87 +1.00 +1.00
+step 80 total_reward -86.55
+step: 81
+episode 102 total_reward -86.55
+observations: +0.00 +1.41 +0.22 -0.11 -0.01 -0.09 +0.00 +0.00
+step 0 total_reward -2.20
+observations: +0.05 +1.33 +0.22 -0.31 -0.08 +0.01 +0.00 +0.00
+step 20 total_reward -17.40
+observations: +0.09 +1.12 +0.25 -0.60 +0.01 +0.16 +0.00 +0.00
+step 40 total_reward -18.79
+observations: +0.15 +0.81 +0.26 -0.72 +0.17 +0.11 +0.00 +0.00
+step 60 total_reward -19.44
+observations: +0.19 +0.41 +0.12 -1.01 +0.35 +0.17 +0.00 +0.00
+step 80 total_reward -27.43
+observations: +0.20 -0.02 +0.10 -0.53 +0.25 -4.22 +1.00 +1.00
+step 98 total_reward -106.77
+step: 99
+episode 103 total_reward -106.77
+observations: +0.01 +1.42 +0.52 +0.28 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -1.98
+observations: +0.11 +1.45 +0.52 -0.16 -0.11 -0.08 +0.00 +0.00
+step 20 total_reward -10.62
+observations: +0.23 +1.36 +0.69 -0.28 -0.17 -0.14 +0.00 +0.00
+step 40 total_reward -33.42
+observations: +0.37 +1.14 +0.75 -0.68 -0.30 -0.23 +0.00 +0.00
+step 60 total_reward -55.74
+observations: +0.54 +0.75 +0.85 -1.05 -0.61 -0.22 +0.00 +0.00
+step 80 total_reward -95.46
+observations: +0.71 +0.16 +0.88 -1.53 -0.75 -0.05 +0.00 +0.00
+step 100 total_reward -131.64
+observations: +0.81 -0.21 +0.33 -0.65 -1.09 -6.80 +1.00 +0.00
+step 111 total_reward -250.05
+step: 112
+episode 104 total_reward -250.05
+observations: +0.01 +1.42 +0.55 +0.20 -0.01 -0.16 +0.00 +0.00
+step 0 total_reward -1.06
+observations: +0.12 +1.46 +0.61 +0.01 -0.23 -0.30 +0.00 +0.00
+step 20 total_reward -31.54
+observations: +0.27 +1.44 +0.89 -0.08 -0.58 -0.31 +0.00 +0.00
+step 40 total_reward -99.90
+observations: +0.46 +1.32 +1.09 -0.48 -0.84 -0.26 +0.00 +0.00
+step 60 total_reward -149.30
+observations: +0.69 +1.00 +1.27 -0.91 -1.06 -0.09 +0.00 +0.00
+step 80 total_reward -192.32
+observations: +0.98 +0.48 +1.64 -1.37 -1.26 -0.22 +0.00 +0.00
+step 100 total_reward -259.38
+observations: +1.01 +0.42 +1.65 -1.43 -1.29 -0.27 +0.00 +0.00
+step 102 total_reward -363.26
+step: 103
+episode 105 total_reward -363.26
+observations: +0.00 +1.39 +0.01 -0.53 -0.00 -0.03 +0.00 +0.00
+step 0 total_reward -1.55
+observations: +0.01 +1.11 +0.07 -0.74 -0.02 -0.09 +0.00 +0.00
+step 20 total_reward +0.13
+observations: +0.03 +0.68 +0.09 -1.14 -0.11 -0.04 +0.00 +0.00
+step 40 total_reward -7.89
+observations: +0.05 +0.08 +0.12 -1.50 -0.07 +0.05 +0.00 +0.00
+step 60 total_reward +18.03
+observations: +0.05 -0.04 +0.00 -0.00 -0.00 -0.00 +1.00 +1.00
+step 64 total_reward -55.77
+step: 65
+episode 106 total_reward -55.77
+observations: +0.00 +1.40 +0.12 -0.15 -0.00 +0.00 +0.00 +0.00
+step 0 total_reward -1.09
+observations: +0.02 +1.23 +0.10 -0.65 +0.04 +0.06 +0.00 +0.00
+step 20 total_reward -34.74
+observations: +0.03 +0.86 +0.02 -1.04 +0.20 +0.22 +0.00 +0.00
+step 40 total_reward -52.97
+observations: +0.03 +0.35 -0.13 -1.20 +0.43 +0.17 +0.00 +0.00
+step 60 total_reward -44.26
+observations: +0.00 -0.02 -0.10 -0.34 +0.33 -3.62 +0.00 +0.00
+step 74 total_reward -108.31
+step: 75
+episode 107 total_reward -108.31
+observations: -0.01 +1.41 -0.61 -0.12 +0.02 +0.18 +0.00 +0.00
+step 0 total_reward -2.22
+observations: -0.14 +1.27 -0.62 -0.52 +0.22 +0.18 +0.00 +0.00
+step 20 total_reward -30.38
+observations: -0.27 +0.97 -0.70 -0.83 +0.34 +0.06 +0.00 +0.00
+step 40 total_reward -43.29
+observations: -0.42 +0.54 -0.83 -1.10 +0.38 +0.04 +0.00 +0.00
+step 60 total_reward -46.33
+observations: -0.57 +0.11 -0.03 +0.01 +0.43 +0.08 +0.00 +1.00
+step 77 total_reward -146.60
+step: 78
+episode 108 total_reward -146.60
+observations: -0.00 +1.42 -0.10 +0.32 +0.00 +0.04 +0.00 +0.00
+step 0 total_reward -2.28
+observations: -0.02 +1.54 -0.06 +0.24 +0.02 -0.08 +0.00 +0.00
+step 20 total_reward -9.15
+observations: -0.03 +1.57 +0.00 -0.12 -0.12 -0.21 +0.00 +0.00
+step 40 total_reward -11.68
+observations: -0.02 +1.48 +0.15 -0.31 -0.30 -0.29 +0.00 +0.00
+step 60 total_reward -44.98
+observations: +0.02 +1.24 +0.22 -0.76 -0.59 -0.31 +0.00 +0.00
+step 80 total_reward -96.75
+observations: +0.07 +0.80 +0.36 -1.17 -0.91 -0.25 +0.00 +0.00
+step 100 total_reward -129.13
+observations: +0.16 +0.18 +0.63 -1.57 -1.06 -0.19 +0.00 +0.00
+step 120 total_reward -137.06
+observations: +0.24 +0.05 +0.71 +0.17 -2.05 -2.86 +0.00 +0.00
+step 129 total_reward -252.36
+step: 130
+episode 109 total_reward -252.36
+observations: -0.01 +1.39 -0.42 -0.56 +0.01 +0.13 +0.00 +0.00
+step 0 total_reward -1.91
+observations: -0.10 +1.05 -0.46 -0.89 +0.20 +0.08 +0.00 +0.00
+step 20 total_reward -19.63
+observations: -0.20 +0.61 -0.57 -1.18 +0.38 +0.32 +0.00 +0.00
+step 40 total_reward -28.32
+observations: -0.34 +0.02 -0.76 -1.49 +0.67 +0.11 +0.00 +0.00
+step 60 total_reward -65.98
+observations: -0.39 -0.16 -0.75 +0.06 +0.84 +2.14 +0.00 +0.00
+step 66 total_reward -174.90
+step: 67
+episode 110 total_reward -174.90
+observations: -0.01 +1.41 -0.66 -0.08 +0.02 +0.19 +0.00 +0.00
+step 0 total_reward -2.02
+observations: -0.15 +1.26 -0.71 -0.52 +0.29 +0.19 +0.00 +0.00
+step 20 total_reward -37.90
+observations: -0.30 +0.98 -0.79 -0.75 +0.38 +0.09 +0.00 +0.00
+step 40 total_reward -46.42
+observations: -0.47 +0.54 -0.94 -1.09 +0.55 +0.20 +0.00 +0.00
+step 60 total_reward -69.28
+observations: -0.64 +0.07 -0.16 +0.11 +1.54 +0.70 +0.00 +0.00
+step 80 total_reward -196.64
+step: 81
+episode 111 total_reward -196.64
+observations: +0.00 +1.41 +0.13 -0.06 -0.00 -0.03 +0.00 +0.00
+step 0 total_reward -0.90
+observations: +0.04 +1.34 +0.20 -0.25 -0.12 -0.16 +0.00 +0.00
+step 20 total_reward -26.27
+observations: +0.08 +1.14 +0.24 -0.67 -0.24 -0.15 +0.00 +0.00
+step 40 total_reward -59.18
+observations: +0.14 +0.77 +0.45 -0.92 -0.42 -0.08 +0.00 +0.00
+step 60 total_reward -74.03
+observations: +0.24 +0.28 +0.51 -1.25 -0.35 +0.19 +0.00 +0.00
+step 80 total_reward -58.00
+observations: +0.28 -0.01 +0.17 -0.61 +0.06 +4.92 +1.00 +1.00
+step 90 total_reward -128.14
+step: 91
+episode 112 total_reward -128.14
+observations: +0.01 +1.39 +0.54 -0.45 -0.01 -0.12 +0.00 +0.00
+step 0 total_reward -1.15
+observations: +0.12 +1.14 +0.54 -0.70 -0.07 +0.08 +0.00 +0.00
+step 20 total_reward -2.60
+observations: +0.23 +0.73 +0.59 -1.07 -0.08 -0.06 +0.00 +0.00
+step 40 total_reward -0.83
+observations: +0.34 +0.19 +0.52 -1.29 +0.04 +0.12 +0.00 +0.00
+step 60 total_reward +20.24
+observations: +0.40 -0.15 +0.21 +0.05 +0.06 +0.25 +1.00 +1.00
+step 72 total_reward -69.50
+step: 73
+episode 113 total_reward -69.50
+observations: -0.01 +1.40 -0.47 -0.18 +0.01 +0.06 +0.00 +0.00
+step 0 total_reward +0.33
+observations: -0.10 +1.23 -0.43 -0.61 +0.05 +0.00 +0.00 +0.00
+step 20 total_reward -12.97
+observations: -0.18 +0.85 -0.44 -1.08 +0.07 +0.13 +0.00 +0.00
+step 40 total_reward -20.99
+observations: -0.29 +0.36 -0.64 -1.22 +0.30 +0.32 +0.00 +0.00
+step 60 total_reward -27.11
+observations: -0.35 +0.06 +0.06 -0.19 +0.25 -2.89 +0.00 +1.00
+step 71 total_reward -126.97
+step: 72
+episode 114 total_reward -126.97
+observations: +0.01 +1.39 +0.26 -0.47 -0.01 -0.06 +0.00 +0.00
+step 0 total_reward -1.45
+observations: +0.06 +1.14 +0.33 -0.60 -0.14 -0.18 +0.00 +0.00
+step 20 total_reward -8.04
+observations: +0.14 +0.78 +0.44 -0.94 -0.35 -0.24 +0.00 +0.00
+step 40 total_reward -30.29
+observations: +0.25 +0.31 +0.64 -1.24 -0.66 -0.43 +0.00 +0.00
+step 60 total_reward -59.80
+observations: +0.34 -0.07 +1.06 -0.52 -0.77 +3.31 +1.00 +0.00
+step 73 total_reward -180.96
+step: 74
+episode 115 total_reward -180.96
+observations: +0.01 +1.43 +0.64 +0.40 -0.01 -0.11 +0.00 +0.00
+step 0 total_reward +0.65
+observations: +0.14 +1.53 +0.69 +0.05 -0.14 -0.14 +0.00 +0.00
+step 20 total_reward -18.22
+observations: +0.28 +1.45 +0.75 -0.36 -0.39 -0.21 +0.00 +0.00
+step 40 total_reward -52.50
+observations: +0.44 +1.20 +0.85 -0.74 -0.61 -0.24 +0.00 +0.00
+step 60 total_reward -84.52
+observations: +0.62 +0.75 +0.97 -1.19 -0.91 -0.24 +0.00 +0.00
+step 80 total_reward -126.62
+observations: +0.85 +0.13 +1.27 -1.57 -1.13 -0.12 +0.00 +0.00
+step 100 total_reward -187.58
+observations: +0.98 -0.05 +1.68 -0.16 -2.05 -1.44 +1.00 +0.00
+step 109 total_reward -346.65
+step: 110
+episode 116 total_reward -346.65
+observations: -0.02 +1.40 -0.79 -0.17 +0.02 +0.18 +0.00 +0.00
+step 0 total_reward -0.90
+observations: -0.17 +1.31 -0.79 -0.22 +0.10 +0.14 +0.00 +0.00
+step 20 total_reward -4.56
+observations: -0.34 +1.17 -0.95 -0.37 +0.35 +0.28 +0.00 +0.00
+step 40 total_reward -41.54
+observations: -0.54 +0.90 -1.14 -0.73 +0.65 +0.25 +0.00 +0.00
+step 60 total_reward -90.48
+observations: -0.81 +0.53 -1.43 -1.01 +0.80 +0.05 +0.00 +0.00
+step 80 total_reward -139.86
+observations: -1.00 +0.19 -1.51 -1.33 +0.89 +0.14 +0.00 +0.00
+step 93 total_reward -276.15
+step: 94
+episode 117 total_reward -276.15
+observations: -0.02 +1.42 -0.77 +0.10 +0.02 +0.22 +0.00 +0.00
+step 0 total_reward -1.97
+observations: -0.17 +1.42 -0.80 -0.11 +0.24 +0.22 +0.00 +0.00
+step 20 total_reward -30.40
+observations: -0.34 +1.29 -0.89 -0.51 +0.46 +0.20 +0.00 +0.00
+step 40 total_reward -65.39
+observations: -0.53 +0.96 -1.02 -0.91 +0.61 +0.15 +0.00 +0.00
+step 60 total_reward -93.52
+observations: -0.78 +0.50 -1.43 -1.11 +0.66 +0.02 +0.00 +0.00
+step 80 total_reward -127.90
+observations: -1.00 +0.07 -1.55 -1.45 +0.73 +0.16 +0.00 +0.00
+step 95 total_reward -270.41
+step: 96
+episode 118 total_reward -270.41
+observations: -0.00 +1.40 -0.06 -0.17 +0.00 +0.03 +0.00 +0.00
+step 0 total_reward +3.20
+observations: -0.01 +1.20 -0.05 -0.66 -0.07 -0.07 +0.00 +0.00
+step 20 total_reward -32.32
+observations: -0.01 +0.84 +0.01 -0.98 -0.31 -0.28 +0.00 +0.00
+step 40 total_reward -53.48
+observations: +0.00 +0.32 +0.24 -1.24 -0.66 -0.38 +0.00 +0.00
+step 60 total_reward -68.17
+observations: +0.05 +0.03 +0.19 -0.12 -0.77 +0.78 +1.00 +0.00
+step 80 total_reward +60.69
+observations: +0.11 -0.03 +0.37 -0.18 -0.12 +1.09 +0.00 +1.00
+step 96 total_reward -12.49
+step: 97
+episode 119 total_reward -12.49
+observations: -0.01 +1.41 -0.33 +0.05 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -1.30
+observations: -0.08 +1.34 -0.38 -0.34 +0.24 +0.14 +0.00 +0.00
+step 20 total_reward -36.03
+observations: -0.16 +1.09 -0.45 -0.74 +0.39 +0.05 +0.00 +0.00
+step 40 total_reward -63.89
+observations: -0.25 +0.65 -0.46 -1.21 +0.43 +0.02 +0.00 +0.00
+step 60 total_reward -71.38
+observations: -0.32 +0.11 +0.34 -0.21 +0.60 -0.86 +0.00 +1.00
+step 80 total_reward +45.19
+observations: -0.29 +0.02 +0.32 -0.35 -0.19 -1.70 +1.00 +0.00
+step 93 total_reward -23.72
+step: 94
+episode 120 total_reward -23.72
+observations: -0.00 +1.41 -0.07 +0.07 -0.00 -0.02 +0.00 +0.00
+step 0 total_reward +2.48
+observations: -0.02 +1.35 -0.04 -0.30 -0.05 -0.14 +0.00 +0.00
+step 20 total_reward -17.35
+observations: -0.02 +1.12 +0.02 -0.67 -0.17 -0.08 +0.00 +0.00
+step 40 total_reward -43.94
+observations: -0.00 +0.76 +0.18 -0.90 -0.37 -0.16 +0.00 +0.00
+step 60 total_reward -56.19
+observations: +0.05 +0.29 +0.39 -1.17 -0.59 -0.23 +0.00 +0.00
+step 80 total_reward -63.71
+observations: +0.11 +0.00 +0.38 -0.05 -0.71 +1.07 +1.00 +0.00
+step 92 total_reward -112.34
+step: 93
+episode 121 total_reward -112.34
+observations: -0.01 +1.41 -0.48 -0.12 +0.01 +0.07 +0.00 +0.00
+step 0 total_reward +0.29
+observations: -0.11 +1.24 -0.57 -0.55 +0.26 +0.30 +0.00 +0.00
+step 20 total_reward -41.26
+observations: -0.23 +0.88 -0.64 -0.99 +0.62 +0.33 +0.00 +0.00
+step 40 total_reward -82.09
+observations: -0.38 +0.37 -0.87 -1.30 +0.95 +0.35 +0.00 +0.00
+step 60 total_reward -118.57
+observations: -0.46 +0.14 -0.37 +0.17 +1.82 +1.33 +0.00 +0.00
+step 70 total_reward -248.15
+step: 71
+episode 122 total_reward -248.15
+observations: +0.01 +1.42 +0.52 +0.23 -0.01 -0.07 +0.00 +0.00
+step 0 total_reward +1.31
+observations: +0.11 +1.44 +0.49 -0.16 -0.09 +0.04 +0.00 +0.00
+step 20 total_reward -4.87
+observations: +0.23 +1.32 +0.59 -0.38 -0.09 +0.01 +0.00 +0.00
+step 40 total_reward -14.82
+observations: +0.34 +1.10 +0.56 -0.62 -0.06 +0.06 +0.00 +0.00
+step 60 total_reward -8.91
+observations: +0.45 +0.71 +0.56 -1.11 +0.04 +0.11 +0.00 +0.00
+step 80 total_reward -16.77
+observations: +0.56 +0.14 +0.52 -1.46 +0.19 +0.06 +0.00 +0.00
+step 100 total_reward -37.45
+observations: +0.59 -0.09 +0.11 +0.01 +0.15 +0.15 +1.00 +1.00
+step 107 total_reward -120.46
+step: 108
+episode 123 total_reward -120.46
+observations: -0.01 +1.41 -0.42 -0.10 +0.01 +0.09 +0.00 +0.00
+step 0 total_reward -0.70
+observations: -0.10 +1.30 -0.52 -0.41 +0.23 +0.30 +0.00 +0.00
+step 20 total_reward -36.72
+observations: -0.20 +1.01 -0.64 -0.73 +0.48 +0.21 +0.00 +0.00
+step 40 total_reward -68.19
+observations: -0.35 +0.60 -0.85 -1.11 +0.83 +0.43 +0.00 +0.00
+step 60 total_reward -112.98
+observations: -0.55 +0.01 -1.15 -1.49 +1.29 +0.31 +0.00 +1.00
+step 80 total_reward -184.62
+observations: -0.57 -0.02 -0.80 +0.20 +1.72 +2.68 +0.00 +1.00
+step 82 total_reward -286.49
+step: 83
+episode 124 total_reward -286.49
+observations: +0.01 +1.39 +0.51 -0.58 -0.01 -0.14 +0.00 +0.00
+step 0 total_reward -1.84
+observations: +0.11 +1.03 +0.49 -0.96 -0.06 -0.03 +0.00 +0.00
+step 20 total_reward -4.40
+observations: +0.21 +0.49 +0.57 -1.37 -0.15 -0.19 +0.00 +0.00
+step 40 total_reward -4.12
+observations: +0.28 +0.06 -0.45 -0.42 -0.15 +3.61 +1.00 +0.00
+step 53 total_reward -79.96
+step: 54
+episode 125 total_reward -79.96
+observations: -0.01 +1.40 -0.74 -0.33 +0.01 +0.13 +0.00 +0.00
+step 0 total_reward +0.13
+observations: -0.16 +1.17 -0.72 -0.66 +0.13 +0.09 +0.00 +0.00
+step 20 total_reward -8.26
+observations: -0.31 +0.80 -0.75 -1.05 +0.23 +0.04 +0.00 +0.00
+step 40 total_reward -18.26
+observations: -0.47 +0.27 -0.84 -1.19 +0.18 -0.14 +0.00 +0.00
+step 60 total_reward -0.93
+observations: -0.53 +0.07 -0.50 -0.58 +0.08 -4.88 +0.00 +0.00
+step 67 total_reward -85.94
+step: 68
+episode 126 total_reward -85.94
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 261, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'
+observations: -0.00 +1.39 -0.12 -0.44 +0.00 -0.00 +0.00 +0.00
+step 0 total_reward -1.20
+observations: -0.03 +1.11 -0.11 -0.69 -0.11 -0.17 +0.00 +0.00
+step 20 total_reward -9.93
+observations: -0.05 +0.69 -0.14 -1.16 -0.16 +0.12 +0.00 +0.00
+step 40 total_reward -20.69
+observations: -0.06 +0.12 -0.05 -1.33 -0.12 +0.07 +0.00 +0.00
+step 60 total_reward +19.82
+observations: -0.06 -0.04 +0.00 -0.00 +0.00 -0.00 +1.00 +1.00
+step 66 total_reward -49.70
+step: 67
+episode 127 total_reward -49.70

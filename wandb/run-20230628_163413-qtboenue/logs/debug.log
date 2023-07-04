@@ -1,0 +1,28 @@
+2023-06-28 16:34:13,956 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-28 16:34:13,957 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Configure stats pid to 19360
+2023-06-28 16:34:13,957 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Loading settings from /Users/Raymond/.config/wandb/settings
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Loading settings from /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/settings
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'RL.py', 'program': '/Users/Raymond/Desktop/CSE/CSE 150B/RL/RL.py'}
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_init.py:_log_setup():507] Logging user logs to /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230628_163413-qtboenue/logs/debug.log
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/Raymond/Desktop/CSE/CSE 150B/RL/wandb/run-20230628_163413-qtboenue/logs/debug-internal.log
+2023-06-28 16:34:13,958 INFO    MainThread:19360 [wandb_init.py:init():547] calling init triggers
+2023-06-28 16:34:13,959 INFO    MainThread:19360 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'exp_name': 'RL', 'gym_id': 'LunarLander-v2', 'learning_rate': 0.00025, 'seed': None, 'total_timesteps': 25000, 'torch_deterministic': True, 'cuda': True, 'track': True, 'wandb_project_name': 'ppo-implementation-details', 'wandb_entity': None, 'num_envs': 4, 'num_steps': 128, 'anneal_lr': True, 'gae': True, 'gamma': 0.99, 'gae_lambda': 0.95, 'num_minibatches': 4, 'update_epochs': 4, 'norm_adv': True, 'clip_coef': 0.2, 'clip_vloss': True, 'ent_coef': 0.01, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'target_kl': None}
+2023-06-28 16:34:13,959 INFO    MainThread:19360 [wandb_init.py:init():596] starting backend
+2023-06-28 16:34:13,959 INFO    MainThread:19360 [wandb_init.py:init():600] setting up manager
+2023-06-28 16:34:13,962 INFO    MainThread:19360 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-06-28 16:34:13,967 INFO    MainThread:19360 [wandb_init.py:init():606] backend started and connected
+2023-06-28 16:34:13,974 INFO    MainThread:19360 [wandb_init.py:init():703] updated telemetry
+2023-06-28 16:34:13,975 INFO    MainThread:19360 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-28 16:34:14,431 INFO    MainThread:19360 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-28 16:34:14,718 INFO    MainThread:19360 [wandb_run.py:_on_init():2185] got version response 
+2023-06-28 16:34:14,718 INFO    MainThread:19360 [wandb_init.py:init():787] starting run threads in backend
+2023-06-28 16:34:14,799 INFO    MainThread:19360 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-28 16:34:14,800 INFO    MainThread:19360 [wandb_run.py:_redirect():2010] redirect: 3
+2023-06-28 16:34:14,800 INFO    MainThread:19360 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-28 16:34:14,800 INFO    MainThread:19360 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-28 16:34:14,801 INFO    MainThread:19360 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-28 16:34:14,801 INFO    MainThread:19360 [wandb_run.py:_tensorboard_callback():1430] tensorboard callback: runs/LunarLander-v2__RL__None__1687995250, True
+2023-06-28 16:34:27,988 WARNING MsgRouterThr:19360 [router.py:message_loop():77] message_loop has been closed

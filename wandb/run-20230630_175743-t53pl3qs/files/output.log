@@ -1,0 +1,117 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -147.73
+episode 1 total_reward -224.24
+episode 2 total_reward -228.78
+episode 3 total_reward -254.44
+episode 4 total_reward -108.14
+episode 5 total_reward -66.37
+episode 6 total_reward -172.62
+episode 7 total_reward -443.51
+episode 8 total_reward -31.44
+episode 9 total_reward -149.53
+episode 10 total_reward -49.48
+episode 11 total_reward -103.07
+episode 12 total_reward -422.93
+episode 13 total_reward -165.80
+episode 14 total_reward -99.54
+episode 15 total_reward -72.60
+episode 16 total_reward -9.16
+episode 17 total_reward -12.57
+episode 18 total_reward -121.37
+episode 19 total_reward -352.69
+episode 20 total_reward -146.19
+episode 21 total_reward -202.92
+episode 22 total_reward -57.79
+episode 23 total_reward -323.62
+episode 24 total_reward -214.54
+episode 25 total_reward -315.16
+episode 26 total_reward -8.98
+episode 27 total_reward -254.85
+episode 28 total_reward -48.63
+episode 29 total_reward -118.64
+episode 30 total_reward -103.30
+episode 31 total_reward -58.18
+episode 32 total_reward -367.65
+episode 33 total_reward -189.63
+episode 34 total_reward -93.95
+episode 35 total_reward -283.81
+episode 36 total_reward -198.20
+episode 37 total_reward -333.68
+episode 38 total_reward -92.86
+episode 39 total_reward -139.64
+episode 40 total_reward -112.78
+episode 41 total_reward -214.44
+episode 42 total_reward -160.64
+episode 43 total_reward -30.02
+episode 44 total_reward -48.84
+episode 45 total_reward -72.27
+episode 46 total_reward -22.56
+episode 47 total_reward -386.56
+episode 48 total_reward -303.33
+episode 49 total_reward -226.27
+episode 50 total_reward -122.80
+episode 51 total_reward -340.08
+episode 52 total_reward -185.98
+episode 53 total_reward -95.24
+episode 54 total_reward -28.07
+episode 55 total_reward -114.71
+episode 56 total_reward -433.63
+episode 57 total_reward -90.04
+episode 58 total_reward -80.85
+episode 59 total_reward -241.09
+episode 60 total_reward -149.80
+episode 61 total_reward -102.38
+episode 62 total_reward +133.17
+episode 63 total_reward -279.79
+episode 64 total_reward -55.78
+episode 65 total_reward -281.79
+episode 66 total_reward -77.45
+episode 67 total_reward -84.53
+episode 68 total_reward -15.28
+episode 69 total_reward -111.53
+episode 70 total_reward -70.17
+episode 71 total_reward -117.30
+episode 72 total_reward -166.04
+episode 73 total_reward -13.64
+episode 74 total_reward -107.66
+episode 75 total_reward -245.69
+episode 76 total_reward -174.74
+episode 77 total_reward -32.73
+episode 78 total_reward -163.93
+episode 79 total_reward -112.55
+episode 80 total_reward -193.01
+episode 81 total_reward -145.34
+episode 82 total_reward -138.55
+episode 83 total_reward -107.52
+episode 84 total_reward -34.69
+episode 85 total_reward -138.19
+episode 86 total_reward -369.14
+episode 87 total_reward -207.98
+episode 88 total_reward -43.17
+episode 89 total_reward -102.47
+episode 90 total_reward -62.93
+episode 91 total_reward -135.40
+episode 92 total_reward -162.70
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 256, 0.8, 0.2, 8, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 185, in ppo
+    action, log_prob, _ = agent.get_action_and_value(state_tensor)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 34, in get_action_and_value
+    logits = self.actor(x)
+             ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 113, in forward
+    def forward(self, input: Tensor) -> Tensor:
+KeyboardInterrupt
+episode 93 total_reward -15.40

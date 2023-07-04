@@ -1,0 +1,46 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -81.97
+episode 1 total_reward -176.46
+episode 2 total_reward -204.91
+episode 3 total_reward -149.14
+episode 4 total_reward -89.40
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 256, 0.8, 0.2, 8, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 219, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, epsilon_clip, policy_epochs, step)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 90, in update
+    _, action_log_probs, predicted_vals = agent.get_action_and_value(state,action)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 38, in get_action_and_value
+    return action, probs.log_prob(action), self.critic(x)
+                                           ^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/fx/traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 428, in _extract_from_extended_frame_gen
+    result.append(FrameSummary(
+                  ^^^^^^^^^^^^^
+KeyboardInterrupt
+episode 5 total_reward -143.77
+episode 6 total_reward -263.28
+episode 7 total_reward -248.50

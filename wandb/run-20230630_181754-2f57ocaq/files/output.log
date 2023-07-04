@@ -1,0 +1,75 @@
+observations: -0.02 +1.42 -0.76 +0.11 +0.02 +0.19 +0.00 +0.00
+step 0 total_reward -0.15
+observations: -0.17 +1.35 -0.79 -0.38 +0.23 +0.29 +0.00 +0.00
+step 20 total_reward -28.28
+observations: -0.34 +1.12 -1.03 -0.64 +0.58 +0.42 +0.00 +0.00
+step 40 total_reward -78.94
+observations: -0.60 +0.80 -1.53 -0.83 +0.90 +0.17 +0.00 +0.00
+step 60 total_reward -149.71
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+observations: -0.93 +0.34 -1.83 -1.16 +0.91 -0.24 +0.00 +0.00
+step 80 total_reward -195.65
+observations: -1.01 +0.23 -1.87 -1.22 +0.85 -0.34 +0.00 +0.00
+step 84 total_reward -296.14
+step: 85
+episode 0 total_reward -296.14
+observations: -0.00 +1.41 -0.13 -0.03 +0.00 -0.01 +0.00 +0.00
+step 0 total_reward +0.97
+observations: -0.03 +1.32 -0.20 -0.35 +0.03 +0.07 +0.00 +0.00
+step 20 total_reward -20.68
+observations: -0.08 +1.08 -0.28 -0.71 +0.21 +0.22 +0.00 +0.00
+step 40 total_reward -54.10
+observations: -0.14 +0.64 -0.33 -1.22 +0.55 +0.36 +0.00 +0.00
+step 60 total_reward -96.13
+observations: -0.24 +0.04 -0.63 -1.51 +0.82 +0.29 +0.00 +0.00
+step 80 total_reward -121.29
+observations: -0.28 -0.08 -1.01 -0.94 +0.61 -3.94 +0.00 +1.00
+step 84 total_reward -212.46
+step: 85
+episode 1 total_reward -212.46
+observations: +0.01 +1.42 +0.59 +0.27 -0.01 -0.10 +0.00 +0.00
+step 0 total_reward +0.82
+observations: +0.13 +1.52 +0.59 +0.08 -0.08 -0.03 +0.00 +0.00
+step 20 total_reward -13.50
+observations: +0.25 +1.48 +0.67 -0.24 -0.22 -0.12 +0.00 +0.00
+step 40 total_reward -37.61
+observations: +0.39 +1.32 +0.73 -0.48 -0.28 +0.05 +0.00 +0.00
+step 60 total_reward -49.36
+observations: +0.55 +1.04 +0.87 -0.76 -0.34 -0.07 +0.00 +0.00
+step 80 total_reward -65.99
+observations: +0.75 +0.65 +1.18 -0.98 -0.47 -0.26 +0.00 +0.00
+step 100 total_reward -101.54
+observations: +1.01 +0.21 +1.46 -1.20 -0.76 -0.46 +0.00 +0.00
+step 119 total_reward -266.78
+step: 120
+episode 2 total_reward -266.78
+observations: +0.00 +1.39 +0.06 -0.39 -0.00 -0.01 +0.00 +0.00
+step 0 total_reward -1.72
+observations: +0.01 +1.19 +0.05 -0.54 -0.00 +0.02 +0.00 +0.00
+step 20 total_reward +1.01
+observations: +0.02 +0.88 +0.06 -0.88 +0.04 +0.02 +0.00 +0.00
+step 40 total_reward -7.01
+observations: +0.04 +0.42 +0.11 -1.17 +0.07 -0.10 +0.00 +0.00
+step 60 total_reward +4.13
+observations: +0.05 -0.04 +0.00 -0.00 -0.00 -0.00 +1.00 +1.00
+step 76 total_reward -56.41
+step: 77
+episode 3 total_reward -56.41
+observations: -0.01 +1.40 -0.35 -0.28 +0.01 +0.12 +0.00 +0.00
+step 0 total_reward -2.40
+observations: -0.09 +1.23 -0.44 -0.55 +0.28 +0.30 +0.00 +0.00
+step 20 total_reward -40.46
+observations: -0.17 +0.88 -0.47 -0.95 +0.53 +0.19 +0.00 +0.00
+step 40 total_reward -69.02
+observations: -0.29 +0.43 -0.67 -1.13 +0.64 +0.04 +0.00 +0.00
+step 60 total_reward -71.05
+observations: -0.44 -0.08 -1.15 -0.93 +0.55 -3.70 +0.00 +1.00
+step 78 total_reward -195.20
+step: 79
+episode 4 total_reward -195.20
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 257, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'

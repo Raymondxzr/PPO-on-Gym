@@ -1,0 +1,149 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+observations: -0.01 +1.40 -0.29 -0.30 +0.00 +0.02 +0.00 +0.00
+step 0 total_reward -0.42
+observations: -0.07 +1.19 -0.37 -0.63 +0.16 +0.29 +0.00 +0.00
+step 20 total_reward -27.83
+observations: -0.15 +0.83 -0.44 -0.96 +0.48 +0.26 +0.00 +0.00
+step 40 total_reward -59.20
+observations: -0.26 +0.33 -0.66 -1.34 +0.77 +0.34 +0.00 +0.00
+step 60 total_reward -90.84
+observations: -0.38 -0.02 -0.75 -0.05 +0.97 -0.59 +0.00 +1.00
+step 77 total_reward -138.96
+step: 78
+episode 0 total_reward -138.96
+observations: +0.01 +1.41 +0.30 -0.06 -0.01 -0.10 +0.00 +0.00
+step 0 total_reward -1.56
+observations: +0.06 +1.33 +0.31 -0.28 -0.20 -0.17 +0.00 +0.00
+step 20 total_reward -26.80
+observations: +0.13 +1.13 +0.34 -0.61 -0.34 -0.06 +0.00 +0.00
+step 40 total_reward -50.88
+observations: +0.20 +0.79 +0.46 -0.89 -0.24 +0.04 +0.00 +0.00
+step 60 total_reward -41.36
+observations: +0.30 +0.37 +0.49 -1.08 -0.14 +0.13 +0.00 +0.00
+step 80 total_reward -18.05
+observations: +0.36 +0.06 -0.10 -0.52 +0.03 +4.16 +1.00 +0.00
+step 92 total_reward -98.78
+step: 93
+episode 1 total_reward -98.78
+observations: -0.01 +1.41 -0.62 -0.05 +0.01 +0.10 +0.00 +0.00
+step 0 total_reward +0.51
+observations: -0.15 +1.32 -0.73 -0.34 +0.19 +0.20 +0.00 +0.00
+step 20 total_reward -29.33
+observations: -0.30 +1.09 -0.81 -0.63 +0.41 +0.17 +0.00 +0.00
+step 40 total_reward -55.80
+observations: -0.48 +0.73 -1.10 -0.86 +0.61 +0.22 +0.00 +0.00
+step 60 total_reward -89.87
+observations: -0.71 +0.25 -1.31 -1.26 +0.82 +0.28 +0.00 +0.00
+step 80 total_reward -142.24
+observations: -0.86 -0.04 -0.34 +0.26 +1.57 +1.54 +0.00 +1.00
+step 92 total_reward -224.82
+step: 93
+episode 2 total_reward -224.82
+observations: -0.01 +1.41 -0.37 -0.10 +0.01 +0.08 +0.00 +0.00
+step 0 total_reward -0.75
+observations: -0.08 +1.32 -0.40 -0.29 +0.02 +0.11 +0.00 +0.00
+step 20 total_reward -6.92
+observations: -0.17 +1.08 -0.41 -0.73 +0.09 +0.01 +0.00 +0.00
+step 40 total_reward -25.77
+observations: -0.24 +0.67 -0.40 -1.01 +0.08 +0.03 +0.00 +0.00
+step 60 total_reward -13.48
+observations: -0.34 +0.18 -0.54 -1.23 +0.18 +0.22 +0.00 +0.00
+step 80 total_reward -18.00
+observations: -0.41 -0.15 -0.68 -0.08 +0.18 -0.57 +1.00 +1.00
+step 92 total_reward -114.89
+step: 93
+episode 3 total_reward -114.89
+observations: +0.01 +1.43 +0.69 +0.51 -0.02 -0.17 +0.00 +0.00
+step 0 total_reward -2.19
+observations: +0.16 +1.57 +0.73 +0.11 -0.11 -0.03 +0.00 +0.00
+step 20 total_reward -15.03
+observations: +0.31 +1.56 +0.84 -0.17 -0.19 -0.17 +0.00 +0.00
+step 40 total_reward -38.23
+observations: +0.49 +1.45 +0.94 -0.40 -0.40 -0.08 +0.00 +0.00
+step 60 total_reward -71.39
+observations: +0.69 +1.19 +1.08 -0.75 -0.57 -0.18 +0.00 +0.00
+step 80 total_reward -104.70
+observations: +0.91 +0.73 +1.21 -1.23 -0.79 -0.38 +0.00 +0.00
+step 100 total_reward -148.00
+observations: +1.01 +0.50 +1.37 -1.30 -0.92 -0.25 +0.00 +0.00
+step 108 total_reward -270.38
+step: 109
+episode 4 total_reward -270.38
+observations: -0.00 +1.40 -0.17 -0.22 +0.01 +0.07 +0.00 +0.00
+step 0 total_reward -2.40
+observations: -0.04 +1.22 -0.20 -0.53 +0.06 +0.13 +0.00 +0.00
+step 20 total_reward -20.48
+observations: -0.08 +0.94 -0.26 -0.65 +0.17 +0.13 +0.00 +0.00
+step 40 total_reward -20.55
+observations: -0.14 +0.59 -0.38 -0.94 +0.28 +0.12 +0.00 +0.00
+step 60 total_reward -30.21
+observations: -0.23 +0.11 -0.49 -1.24 +0.38 +0.01 +0.00 +0.00
+step 80 total_reward -39.12
+observations: -0.27 -0.07 -0.87 -0.19 +0.31 +0.00 +1.00 +1.00
+step 87 total_reward -122.78
+step: 88
+episode 5 total_reward -122.78
+observations: -0.00 +1.40 -0.12 -0.19 +0.00 +0.03 +0.00 +0.00
+step 0 total_reward -1.83
+observations: -0.03 +1.23 -0.18 -0.56 +0.12 +0.21 +0.00 +0.00
+step 20 total_reward -34.46
+observations: -0.07 +0.98 -0.25 -0.70 +0.34 +0.28 +0.00 +0.00
+step 40 total_reward -50.81
+observations: -0.15 +0.62 -0.51 -0.93 +0.62 +0.40 +0.00 +0.00
+step 60 total_reward -77.99
+observations: -0.26 +0.12 -0.64 -1.29 +0.81 +0.01 +0.00 +0.00
+step 80 total_reward -100.38
+observations: -0.38 +0.08 -0.83 -0.16 +1.75 +0.95 +0.00 +0.00
+step 100 total_reward -147.84
+observations: -0.45 +0.05 -0.73 +0.11 +2.21 +1.82 +0.00 +0.00
+step 108 total_reward -311.79
+step: 109
+episode 6 total_reward -311.79
+observations: -0.01 +1.43 -0.37 +0.37 +0.01 +0.08 +0.00 +0.00
+step 0 total_reward +0.62
+observations: -0.08 +1.51 -0.35 +0.01 +0.13 -0.01 +0.00 +0.00
+step 20 total_reward -3.78
+observations: -0.15 +1.46 -0.35 -0.19 -0.02 -0.26 +0.00 +0.00
+step 40 total_reward +5.34
+observations: -0.22 +1.34 -0.31 -0.37 -0.23 -0.14 +0.00 +0.00
+step 60 total_reward -16.69
+observations: -0.27 +1.09 -0.17 -0.70 -0.51 -0.27 +0.00 +0.00
+step 80 total_reward -46.56
+observations: -0.30 +0.66 -0.00 -1.15 -0.81 -0.35 +0.00 +0.00
+step 100 total_reward -80.83
+observations: -0.27 +0.08 +0.21 -1.53 -1.10 -0.26 +0.00 +0.00
+step 120 total_reward -106.03
+observations: -0.26 -0.02 -0.22 -0.11 -1.71 +0.81 +1.00 +0.00
+step 124 total_reward -195.57
+step: 125
+episode 7 total_reward -195.57
+observations: +0.01 +1.39 +0.50 -0.57 -0.01 -0.15 +0.00 +0.00
+step 0 total_reward -2.12
+observations: +0.11 +1.07 +0.52 -0.82 -0.15 -0.25 +0.00 +0.00
+step 20 total_reward -7.99
+observations: +0.21 +0.63 +0.58 -1.05 -0.27 -0.08 +0.00 +0.00
+step 40 total_reward -3.50
+observations: +0.35 +0.10 +0.73 -1.35 -0.46 -0.27 +1.00 +0.00
+step 60 total_reward -16.66
+observations: +0.36 +0.05 +0.13 -0.16 -0.43 +2.74 +1.00 +0.00
+step 62 total_reward -95.83
+step: 63
+episode 8 total_reward -95.83
+observations: -0.01 +1.39 -0.50 -0.41 +0.01 +0.11 +0.00 +0.00
+step 0 total_reward +1.62
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 257, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'
+observations: -0.12 +1.15 -0.63 -0.62 +0.25 +0.32 +0.00 +0.00
+step 20 total_reward -24.98
+observations: -0.25 +0.77 -0.63 -1.09 +0.49 +0.09 +0.00 +0.00
+step 40 total_reward -51.77
+observations: -0.38 +0.17 -0.70 -1.57 +0.60 +0.17 +0.00 +0.00
+step 60 total_reward -71.40
+observations: -0.41 +0.07 -0.99 -1.07 +0.49 -4.26 +0.00 +1.00
+step 63 total_reward -157.49
+step: 64
+episode 9 total_reward -157.49

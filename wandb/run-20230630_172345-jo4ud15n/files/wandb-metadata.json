@@ -1,0 +1,36 @@
+{
+    "os": "macOS-13.2.1-x86_64-i386-64bit",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-07-01T00:23:46.374927",
+    "startedAt": "2023-07-01T00:23:45.421472",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py",
+    "codePath": "ppo.py",
+    "host": "Raymonds-MacBook-Pro.local",
+    "username": "Raymond",
+    "executable": "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 8.328807830810547
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

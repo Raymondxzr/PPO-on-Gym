@@ -1,0 +1,27 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -95.04
+episode 1 total_reward -169.33
+episode 2 total_reward -76.55
+episode 3 total_reward -78.03
+episode 4 total_reward -97.39
+episode 5 total_reward +1.21
+episode 6 total_reward -166.49
+episode 7 total_reward -270.68
+episode 8 total_reward -85.65
+episode 9 total_reward -89.98
+episode 10 total_reward -268.84
+episode 11 total_reward -121.35
+episode 12 total_reward -356.92
+episode 13 total_reward -142.86
+episode 14 total_reward -140.72
+episode 15 total_reward -424.99
+episode 16 total_reward -143.95
+episode 17 total_reward -102.16
+episode 18 total_reward -100.25
+episode 19 total_reward -107.62
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 158, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'

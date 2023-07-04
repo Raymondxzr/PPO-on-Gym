@@ -1,0 +1,67 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -327.85
+episode 1 total_reward -337.85
+episode 2 total_reward -271.17
+episode 3 total_reward -224.30
+episode 4 total_reward -54.70
+episode 5 total_reward -135.74
+episode 6 total_reward -310.31
+episode 7 total_reward -102.71
+episode 8 total_reward -307.91
+episode 9 total_reward -143.75
+episode 10 total_reward -380.88
+episode 11 total_reward -117.66
+episode 12 total_reward -97.54
+episode 13 total_reward -425.26
+episode 14 total_reward -81.99
+episode 15 total_reward -204.90
+episode 16 total_reward -81.83
+episode 17 total_reward -98.09
+episode 18 total_reward -106.32
+episode 19 total_reward -150.18
+episode 20 total_reward -218.06
+episode 21 total_reward -75.71
+episode 22 total_reward -145.34
+episode 23 total_reward -10.49
+episode 24 total_reward -314.16
+episode 25 total_reward -288.57
+episode 26 total_reward -56.05
+episode 27 total_reward -397.34
+episode 28 total_reward -180.74
+episode 29 total_reward -61.35
+episode 30 total_reward -93.71
+episode 31 total_reward -93.68
+episode 32 total_reward +23.44
+episode 33 total_reward -62.70
+episode 34 total_reward -253.40
+episode 35 total_reward -160.58
+episode 36 total_reward -296.60
+episode 37 total_reward -134.06
+episode 38 total_reward -93.87
+episode 39 total_reward -87.07
+episode 40 total_reward -210.45
+episode 41 total_reward -84.43
+episode 42 total_reward -345.40
+episode 43 total_reward -149.80
+episode 44 total_reward -95.37
+episode 45 total_reward -195.33
+episode 46 total_reward -108.91
+episode 47 total_reward -149.31
+episode 48 total_reward -228.79
+episode 49 total_reward -350.52
+episode 50 total_reward -136.90
+episode 51 total_reward -250.39
+episode 52 total_reward -386.46
+episode 53 total_reward -103.43
+episode 54 total_reward -335.19
+episode 55 total_reward -126.07
+episode 56 total_reward -295.79
+episode 57 total_reward -116.29
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 256, in <module>
+    wandb.log({"Episode Rewards": wandb.plot.line(
+                                  ^^^^^^^^^^^^^^^^
+TypeError: line() got an unexpected keyword argument 'series'
+episode 58 total_reward -292.20
+episode 59 total_reward -385.29

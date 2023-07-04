@@ -1,0 +1,50 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -117.58
+episode 1 total_reward -304.83
+episode 2 total_reward -89.18
+episode 3 total_reward -51.59
+episode 4 total_reward -86.89
+episode 5 total_reward -105.15
+episode 6 total_reward -431.82
+episode 7 total_reward -7.44
+episode 8 total_reward -320.17
+episode 9 total_reward -109.67
+episode 10 total_reward -58.20
+episode 11 total_reward -204.89
+episode 12 total_reward -124.25
+episode 13 total_reward -24.54
+episode 14 total_reward -106.89
+episode 15 total_reward -10.76
+episode 16 total_reward -59.09
+episode 17 total_reward -122.40
+episode 18 total_reward -173.97
+episode 19 total_reward -146.15
+episode 20 total_reward -148.02
+episode 21 total_reward -135.09
+episode 22 total_reward -3.11
+episode 23 total_reward -349.61
+episode 24 total_reward -76.57
+episode 25 total_reward -46.69
+episode 26 total_reward -105.60
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 256, 0.8, 0.2, 8, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 193, in ppo
+    log_probs[step] = log_prob
+    ~~~~~~~~~^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/fx/traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 432, in _extract_from_extended_frame_gen
+    linecache.checkcache(filename)
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/linecache.py", line 72, in checkcache
+    stat = os.stat(fullname)
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

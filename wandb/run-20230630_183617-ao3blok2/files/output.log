@@ -1,0 +1,69 @@
+/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/gym/utils/passive_env_checker.py:233: DeprecationWarning: `np.bool8` is a deprecated alias for `np.bool_`.  (Deprecated NumPy 1.24)
+  if not isinstance(terminated, (bool, np.bool8)):
+episode 0 total_reward -180.90
+episode 1 total_reward -110.81
+episode 2 total_reward -329.18
+episode 3 total_reward -278.21
+episode 4 total_reward -140.23
+episode 5 total_reward -283.71
+episode 6 total_reward -216.40
+episode 7 total_reward -56.97
+episode 8 total_reward -232.53
+episode 9 total_reward -200.59
+episode 10 total_reward -104.76
+episode 11 total_reward -156.11
+episode 12 total_reward -87.45
+episode 13 total_reward -59.00
+episode 14 total_reward -220.55
+episode 15 total_reward -238.93
+episode 16 total_reward -80.92
+episode 17 total_reward -136.55
+episode 18 total_reward -136.61
+episode 19 total_reward -336.37
+episode 20 total_reward -117.37
+episode 21 total_reward -123.25
+episode 22 total_reward -180.46
+episode 23 total_reward -109.22
+episode 24 total_reward -170.31
+episode 25 total_reward -159.24
+episode 26 total_reward -198.83
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 253, in <module>
+    ppo(env, 128, 0.9, 0.2, 8, 0.01, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 224, in ppo
+    update(agent, optimizer, states, actions, log_probs, returns, advantages, epsilon_clip, update_epochs, step)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 94, in update
+    _, action_log_probs, predicted_vals = agent.get_action_and_value(state,action)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 38, in get_action_and_value
+    logits = self.actor(x)
+             ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/PPO/lib/python3.11/site-packages/torch/fx/traceback.py", line 41, in format_stack
+    return traceback.format_list(traceback.extract_stack()[:-1])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 231, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 393, in extract
+    return klass._extract_from_extended_frame_gen(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 436, in _extract_from_extended_frame_gen
+    f.line
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/traceback.py", line 321, in line
+    self._line = linecache.getline(self.filename, self.lineno)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/linecache.py", line 26, in getline
+    def getline(filename, lineno, module_globals=None):
+KeyboardInterrupt

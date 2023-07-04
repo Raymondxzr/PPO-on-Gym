@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 270, in <module>
+    ppo(env, 5, 0.99, 0.2, 4, 2.5e-4, episode_rewards)
+  File "/Users/Raymond/Desktop/CSE/CSE 150B/RL/ppo.py", line 190, in ppo
+    actions = torch.zeros((num_steps, 1) + env.action_space.n)
+                          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate tuple (not "int") to tuple
